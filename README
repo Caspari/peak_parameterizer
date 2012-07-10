@@ -1,0 +1,8 @@
+peak_parameterizer
+==================
+
+A simple project for Advanced GIS in Marburg's graduate geography program.
+
+Goals:
+- Find the parameters for GRASS GIS' r.param.scale to identify peaks that match
+those in a training data set.
