@@ -11,8 +11,63 @@
 #
 ##############################################################################
 
-# TODO: Write GUI.
-# Inputs: DEM, peak points.
+#%Module
+#% label: Peak parameterizer
+#% description: A tool to find parameters for finding peaks based on a training data set.
+#% keywords: raster, terrain, peaks, morphometry
+#%End
+
+#%Flag
+#% key: t
+#% description: Find true positives
+#% guisection: Validation measurements
+#%End
+
+#%Flag
+#% key: f
+#% description: Find false negatives
+#% guisection: Validation measurements
+#%End
+
+#%Flag
+#% key: n
+#% description: Find false negatives
+#% guisection: Validation measurements
+#%End
+
+#%Option
+#% key: dem
+#% type: old,cell,raster
+#% description: The input elevation map
+#% required: yes
+#%End
+
+#%Option
+#% key: peaks
+#% description: A vector map of training peaks as points
+#% type: old,vector
+#% required: yes
+#%End
+
+#%Option
+#% key: window_sizes
+#% type: string
+#% description: A list of integer window sizes separated by commas
+#% required: yes
+#% answer: '3, 5, 9, 19, 39, 69'
+#% guisection: Parameters
+#%End
+
+#%Option
+#% key: slope_thresholds
+#% type: string
+#% description: A list of slope thresholds separated by commas
+#% required: yes
+#% answer: '1, 2, 3, 4, 5, 6, 7, 8, 9, 10'
+#% guisection: Parameters
+#%End
+
+import os
 
 import grass.script as grass
 
@@ -46,18 +101,19 @@ class PeakAnalyst(object):
             results: results container object
         '''
         
-        # TODO: Parse this
         # The input is a string of integers divided by commas. Split it into
         # a list and convert all values to integers.
-        self.window_sizes = options['window_sizes']
+        self.window_sizes = options['window_sizes'].split(',')
+        for i in range(len(self.window_sizes)):
+            self.window_sizes[i] = int(self.window_sizes[i])
         # Repeat procedure as above.
-        self.slope_thresholds = options['slope_thresholds']
-        # TODO: Parse flags from GUI for error values.
-        # flags.values() == [True, True, True]
+        self.slope_thresholds = options['slope_thresholds'].split(',')
+        for i in range(len(self.slope_thresholds)):
+            self.slope_thresholds[i] = int(self.slope_thresholds[i])
+        # Append error flags to error values list
         self.error_values = []
         for error_flag in flags.keys():
-            if flags[error_flag]:
-                self.error_values.append(error_flag)
+            self.error_values.append(error_flag)
         # Replace error values from flags with readable strings
         if 't' in self.error_values:
             self.error_values.remove('t')
@@ -69,10 +125,10 @@ class PeakAnalyst(object):
             self.error_values.remove('n')
             self.error_values.append('false negatives')
         self.dem = options['dem']
-        self.peaks = ['peaks']
+        self.peaks = options['peaks']
         self.results = results
-        # TODO: Set up regional settings with grass.region()
         # Set region to raster
+        grass.run_command('g.region', rast=self.dem)
         return
     
     def find_peaks(self):
@@ -82,17 +138,43 @@ class PeakAnalyst(object):
         them into vector areas.
         '''
         
+        # Make reclass table that eliminates all features except for peaks
+        reclass_rules = '.tmp_reclass.txt'
+        with open(reclass_rules, 'w') as reclass:
+            reclass.write('0 thru 5 = NULL\n' + 
+                          '* = *\n' + 
+                          'end\n')
         self.found_peaks = []
-        # TODO: Get this running.
         for window in self.window_sizes:
             for slope_threshold in self.slope_thresholds:
                 # Use r.param.scale to produce peak maps.
+                feature_map = str(window) + '_' + str(slope_threshold)
+                grass.run_command('r.param.scale',
+                                  input=self.dem,
+                                  output=feature_map,
+                                  s_tol=slope_threshold,
+                                  size=window,
+                                  param='feature')
                 # Use r.reclass to extract the peaks as rasters.
+                peak_raster = feature_map + '_peaks'
+                grass.run_command('r.reclass',
+                                  input=feature_map,
+                                  output=peak_raster,
+                                  rules=reclass_rules)
                 # Use r.to.vect to turn the peaks into areas.
-                # Add the vector peak map to self.found_peaks[]
+                peak_vectors = peak_raster
+                grass.run_command('r.to.vect',
+                                  input=peak_raster,
+                                  output=peak_vectors,
+                                  feature='area')
+                # Add the vector peak map list of found peaks
+                self.found_peaks.append(peak_vectors)
                 # Delete the geomorphometry map and raster peak map.
-                pass
-        
+                for raster in [feature_map, peak_raster]:
+                    grass.run_command('g.remove',
+                                      rast=raster)
+        # Delete reclass table
+        os.remove(reclass_rules)
         pass
     
     def evaluate_peaks(self, error_value):
@@ -199,7 +281,7 @@ class Exporter(object):
 def main():
     # Override GUI inputs
     # Window sizes: 3x3, 5x5, 9x9, 19x19, 39x39, 69x69
-    options = {'window_sizes'     : ['3, 5, 9, 19, 39, 69'],
+    options = {'window_sizes'     : '3, 5, 9, 19, 39, 69',
                # For each window, iterate with slope threshold 1-10
                'slope_thresholds' : str(range(1, 11))[1:-1]}
     # Error values. t = true positives, f = false positives, n = false negatives
