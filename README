@@ -7,4 +7,4 @@ Goals:
 - Find the parameters for GRASS GIS' r.param.scale to identify peaks that match
 those in a training data set.
 
-For more information, visit the [project homepage](http://erget.github.com/peak_parameterizer/).
+For more information, visit the http://erget.github.com/peak_parameterizer/.

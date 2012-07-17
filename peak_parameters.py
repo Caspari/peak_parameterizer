@@ -198,12 +198,24 @@ class PeakAnalyst(object):
         number to results container.
         '''
         
-        # TODO: Get this working.
+        true_positives = 'true_positives'
         for peak_map in self.found_peaks:
-            # Use v.select to find peak areas containing peak points.
+            # Find peak areas containing peak points.
+            grass.run_command('v.select',
+                              ainput=peak_map,
+                              binput=self.peaks,
+                              output=true_positives)
             # Count features in the extracted map and call write_to_results()
+            true_positives_count = len(grass.read_command('v.db.select',
+                                                          map=true_positives,
+                                                          column='cat',
+                                                          flags='c').splitlines())
+            grass.run_command('g.remove',
+                              vect=true_positives)
+            self.write_to_results('true positives', true_positives_count)
             pass
         return
+    
     
     def false_positives(self):
         '''
@@ -211,10 +223,22 @@ class PeakAnalyst(object):
         write number to results container.
         '''
         
-        # TODO: Get this working.
+        false_positives = 'false_positives'
         for peak_map in self.found_peaks:
-            # Use v.select to find peak areas that do not contain training peaks
+            # Find peak areas that do not contain training peaks
+            grass.run_command('v.select',
+                              ainput=peak_map,
+                              binput=self.peaks,
+                              output=false_positives,
+                              operator='disjoint')
             # Count features in the extracted map and call write_to_results()
+            false_positives_count = len(grass.read_command('v.db.select',
+                                                     map=false_positives,
+                                                     column='cat',
+                                                     flags='c').splitlines())
+            grass.run_command('g.remove',
+                              vect=false_positives)
+            self.write_to_results('false positives', false_positives_count)
             pass
         return
     
@@ -239,6 +263,9 @@ class PeakAnalyst(object):
         container object.
         '''
         
+        # Find out which error value is needed and write it to object 
+        if error_value == 'true_positives':
+            pass
         return
     return
 
