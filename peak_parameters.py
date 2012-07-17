@@ -233,9 +233,9 @@ class PeakAnalyst(object):
                               operator='disjoint')
             # Count features in the extracted map and call write_to_results()
             false_positives_count = len(grass.read_command('v.db.select',
-                                                     map=false_positives,
-                                                     column='cat',
-                                                     flags='c').splitlines())
+                                                           map=false_positives,
+                                                           column='cat',
+                                                           flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
             self.write_to_results('false positives', false_positives_count)
@@ -248,11 +248,22 @@ class PeakAnalyst(object):
         and write number to results container.
         '''
         
-        # TODO: Get this working.
+        false_negatives = 'false_negatives'
         for peak_map in self.found_peaks:
-            # Use v.select to find training peaks that do not overlap with
-            # peak areas.
+            # Find training peaks that do not overlap with peak areas.
+            grass.run_command('v.select',
+                              ainput=self.peaks,
+                              binput=peak_map,
+                              output=false_negatives,
+                              operator='disjoint')
             # Count features in the extracted map and call write_to_results()
+            false_negatives_count = len(grass.read_command('v.db.select',
+                                                           map=false_negatives,
+                                                           column='cat',
+                                                           flags='c').splitlines())
+            grass.run_command('g.remove',
+                              vect=false_negatives)
+            self.write_to_results('false negatives', false_negatives_count)
             pass
         return
     
