@@ -199,7 +199,6 @@ class PeakAnalyst(object):
         number to results container.
         '''
         
-        # TODO: Use this as a model for the window / slope counters
         true_positives = 'true_positives'
         
         # peak_map contains [window, slope, map]
@@ -245,7 +244,6 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
-            # TODO: Get this to also send the proper window and slope
             self.write_to_results('false positives',
                                   peak_map[0],
                                   peak_map[1], 
@@ -281,7 +279,6 @@ class PeakAnalyst(object):
             pass
         return
     
-    # TODO: Get this working.
     def write_to_results(self, 
                          error_value,
                          window_size,
@@ -297,8 +294,17 @@ class PeakAnalyst(object):
             self.write_true_positives(window_size,
                                       slope_threshold,
                                       value)
+        elif error_value == 'false positives':
+            self.write_false_positives(window_size,
+                                       slope_threshold,
+                                       value)
+        elif error_value == 'false negatives':
+            self.write_false_negatives(window_size,
+                                       slope_threshold,
+                                       value)
         return
 
+    # TODO: Get this working
     def write_true_positives(self, 
                              window_size,
                              slope_threshold,
@@ -314,8 +320,49 @@ class PeakAnalyst(object):
             self.results.error_values.append('true positives')
         # Find position of true positives field
         # Append true positives value to proper window and slope
+        # TODO: Use method from ResultsContainer
+        return
+    
+    # TODO: Get this working
+    def write_false_positives(self, 
+                             window_size,
+                             slope_threshold,
+                             value):
+        '''
+        Writes false positives to the results container.
+        '''
+        
+        # Append window size to results container if needed
+        # Append slope threshold to results container if needed
+        # Append true positives field to results container if needed
+        if not 'false positives' in self.results.error_values:
+            self.results.error_values.append('false positives')
+        # Find position of true positives field
+        # Append true positives value to proper window and slope
         self.write_true_positives(value)
         return
+    
+    # TODO: Get this working
+    def write_false_negatives(self, 
+                             window_size,
+                             slope_threshold,
+                             value):
+        '''
+        Writes false negatives to the results container.
+        '''
+        
+        # Append window size to results container if needed
+        # Append slope threshold to results container if needed
+        # Append true positives field to results container if needed
+        if not 'false negatives' in self.results.error_values:
+            self.results.error_values.append('false negatives')
+        # Find position of true positives field
+        # Append true positives value to proper window and slope
+        self.write_true_positives(value)
+        return
+    
+    return
+    
 
 class ResultsContainer(object):
     '''
