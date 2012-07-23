@@ -167,8 +167,9 @@ class PeakAnalyst(object):
                                   input=peak_raster,
                                   output=peak_vectors,
                                   feature='area')
-                # Add the vector peak map list of found peaks
-                self.found_peaks.append(peak_vectors)
+                # Add the window, slope threshold and vector peak map to list 
+                # of found peaks
+                self.found_peaks.append([window, slope_threshold, peak_vectors])
                 # Delete the geomorphometry map and raster peak map.
                 for raster in [feature_map, peak_raster]:
                     grass.run_command('g.remove',
@@ -198,11 +199,14 @@ class PeakAnalyst(object):
         number to results container.
         '''
         
+        # TODO: Use this as a model for the window / slope counters
         true_positives = 'true_positives'
-        for peak_map in self.found_peaks:
+        
+        # peak_map contains [window, slope, map]
+        for peak_map in range(len(self.found_peaks)):
             # Find peak areas containing peak points.
             grass.run_command('v.select',
-                              ainput=peak_map,
+                              ainput=peak_map[2],
                               binput=self.peaks,
                               output=true_positives)
             # Count features in the extracted map and call write_to_results()
@@ -212,7 +216,10 @@ class PeakAnalyst(object):
                                                           flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=true_positives)
-            self.write_to_results('true positives', true_positives_count)
+            self.write_to_results('true positives', 
+                                  peak_map[0],
+                                  peak_map[1],
+                                  true_positives_count)
             pass
         return
     
@@ -227,7 +234,7 @@ class PeakAnalyst(object):
         for peak_map in self.found_peaks:
             # Find peak areas that do not contain training peaks
             grass.run_command('v.select',
-                              ainput=peak_map,
+                              ainput=peak_map[2],
                               binput=self.peaks,
                               output=false_positives,
                               operator='disjoint')
@@ -239,7 +246,10 @@ class PeakAnalyst(object):
             grass.run_command('g.remove',
                               vect=false_positives)
             # TODO: Get this to also send the proper window and slope
-            self.write_to_results('false positives', false_positives_count)
+            self.write_to_results('false positives',
+                                  peak_map[0],
+                                  peak_map[1], 
+                                  false_positives_count)
             pass
         return
     
@@ -254,7 +264,7 @@ class PeakAnalyst(object):
             # Find training peaks that do not overlap with peak areas.
             grass.run_command('v.select',
                               ainput=self.peaks,
-                              binput=peak_map,
+                              binput=peak_map[2],
                               output=false_negatives,
                               operator='disjoint')
             # Count features in the extracted map and call write_to_results()
@@ -264,12 +274,19 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_negatives)
-            self.write_to_results('false negatives', false_negatives_count)
+            self.write_to_results('false negatives',
+                                  peak_map[0],
+                                  peak_map[1], 
+                                  false_negatives_count)
             pass
         return
     
     # TODO: Get this working.
-    def write_to_results(self, error_value, value):
+    def write_to_results(self, 
+                         error_value,
+                         window_size,
+                         slope_threshold, 
+                         value):
         '''
         Writes a specified error value to the correct field in the data 
         container object.
@@ -277,10 +294,15 @@ class PeakAnalyst(object):
         
         # Find out which error value is needed and write it to object 
         if error_value == 'true_positives':
-            self.write_true_positives(value)
+            self.write_true_positives(window_size,
+                                      slope_threshold,
+                                      value)
         return
 
-    def write_true_positives(self, value):
+    def write_true_positives(self, 
+                             window_size,
+                             slope_threshold,
+                             value):
         '''
         Writes true positives to the results container.
         '''
