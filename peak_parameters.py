@@ -307,10 +307,17 @@ class ResultsContainer(object):
         '''
         
         # TODO: Get this working
-        # TODO: Have this method check if the error value and etc. are already in the data structure
-        # a la:
-#        if not 'true positives' in self.results.error_values:
-#            self.results.error_values.append('true positives')
+        # If error type is already in error_values, note its position.
+        if error_type in self.results.error_values:
+            # Note position
+            pass
+        else:
+            # Otherwise add it.
+            pass
+        # Repeat for window size
+        # Repeat for slope threshold
+        # Append error value to correct position in data structure
+        
         pass
 
 class Exporter(object):
