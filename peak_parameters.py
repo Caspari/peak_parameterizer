@@ -129,7 +129,6 @@ class PeakAnalyst(object):
         self.results = results
         # Set region to raster
         grass.run_command('g.region', rast=self.dem)
-        return
     
     def find_peaks(self):
         '''
@@ -176,7 +175,6 @@ class PeakAnalyst(object):
                                       rast=raster)
         # Delete reclass table
         os.remove(reclass_rules)
-        pass
     
     def evaluate_peaks(self, error_value):
         '''
@@ -188,10 +186,9 @@ class PeakAnalyst(object):
         if error_value == 'true positives':
             self.true_positives()
         elif error_value == 'false positives':
-            self.false_positives
+            self.false_positives()
         elif error_value == 'false negatives':
-            pass
-        return
+            self.false_negatives()
     
     def true_positives(self):
         '''
@@ -215,13 +212,11 @@ class PeakAnalyst(object):
                                                           flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=true_positives)
-            self.write_to_results('true positives', 
-                                  peak_map[0],
-                                  peak_map[1],
-                                  true_positives_count)
-            pass
-        return
-    
+            # Send results to results container object
+            self.results.add_error_value('true positives', 
+                                         peak_map[0], 
+                                         peak_map[1], 
+                                         true_positives_count)
     
     def false_positives(self):
         '''
@@ -244,12 +239,10 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
-            self.write_to_results('false positives',
-                                  peak_map[0],
-                                  peak_map[1], 
-                                  false_positives_count)
-            pass
-        return
+            self.results.add_error_value('false positives', 
+                                         peak_map[0], 
+                                         peak_map[1], 
+                                         false_positives_count)
     
     def false_negatives(self):
         '''
@@ -272,98 +265,11 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_negatives)
-            self.write_to_results('false negatives',
-                                  peak_map[0],
-                                  peak_map[1], 
-                                  false_negatives_count)
-            pass
-        return
+            self.results.add_error_value('false negatives', 
+                                         peak_map[0], 
+                                         peak_map[1], 
+                                         false_negatives_count)
     
-    def write_to_results(self, 
-                         error_value,
-                         window_size,
-                         slope_threshold, 
-                         value):
-        '''
-        Writes a specified error value to the correct field in the data 
-        container object.
-        '''
-        
-        # Find out which error value is needed and write it to object 
-        if error_value == 'true_positives':
-            self.write_true_positives(window_size,
-                                      slope_threshold,
-                                      value)
-        elif error_value == 'false positives':
-            self.write_false_positives(window_size,
-                                       slope_threshold,
-                                       value)
-        elif error_value == 'false negatives':
-            self.write_false_negatives(window_size,
-                                       slope_threshold,
-                                       value)
-        return
-
-    # TODO: Get this working
-    def write_true_positives(self, 
-                             window_size,
-                             slope_threshold,
-                             value):
-        '''
-        Writes true positives to the results container.
-        '''
-        
-        # Append window size to results container if needed
-        # Append slope threshold to results container if needed
-        # Append true positives field to results container if needed
-        if not 'true positives' in self.results.error_values:
-            self.results.error_values.append('true positives')
-        # Find position of true positives field
-        # Append true positives value to proper window and slope
-        # TODO: Use method from ResultsContainer
-        return
-    
-    # TODO: Get this working
-    def write_false_positives(self, 
-                             window_size,
-                             slope_threshold,
-                             value):
-        '''
-        Writes false positives to the results container.
-        '''
-        
-        # Append window size to results container if needed
-        # Append slope threshold to results container if needed
-        # Append true positives field to results container if needed
-        if not 'false positives' in self.results.error_values:
-            self.results.error_values.append('false positives')
-        # Find position of true positives field
-        # Append true positives value to proper window and slope
-        self.write_true_positives(value)
-        return
-    
-    # TODO: Get this working
-    def write_false_negatives(self, 
-                             window_size,
-                             slope_threshold,
-                             value):
-        '''
-        Writes false negatives to the results container.
-        '''
-        
-        # Append window size to results container if needed
-        # Append slope threshold to results container if needed
-        # Append true positives field to results container if needed
-        if not 'false negatives' in self.results.error_values:
-            self.results.error_values.append('false negatives')
-        # Find position of true positives field
-        # Append true positives value to proper window and slope
-        self.write_true_positives(value)
-        return
-    
-    return
-    
-
 class ResultsContainer(object):
     '''
     A data container with a three dimensional matrix.
@@ -389,10 +295,24 @@ class ResultsContainer(object):
         self.window_size = []
         self.slope_threshold = []
         self.error_value = []
-        return
     
-    return
-    
+    def add_error_value(self, 
+                        error_type, 
+                        window_size, 
+                        slope_threshold,
+                        error_value):
+        '''
+        Adds the appropriate error value to the right position in the data 
+        structure.
+        '''
+        
+        # TODO: Get this working
+        # TODO: Have this method check if the error value and etc. are already in the data structure
+        # a la:
+#        if not 'true positives' in self.results.error_values:
+#            self.results.error_values.append('true positives')
+        pass
+
 class Exporter(object):
     '''
     Summarizes results and exports them to a specified format.
