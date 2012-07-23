@@ -238,6 +238,7 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
+            # TODO: Get this to also send the proper window and slope
             self.write_to_results('false positives', false_positives_count)
             pass
         return
@@ -278,12 +279,20 @@ class PeakAnalyst(object):
         if error_value == 'true_positives':
             self.write_true_positives(value)
         return
-    
+
     def write_true_positives(self, value):
         '''
-        Writes true positives to results container.
+        Writes true positives to the results container.
         '''
         
+        # Append window size to results container if needed
+        # Append slope threshold to results container if needed
+        # Append true positives field to results container if needed
+        if not 'true positives' in self.results.error_values:
+            self.results.error_values.append('true positives')
+        # Find position of true positives field
+        # Append true positives value to proper window and slope
+        self.write_true_positives(value)
         return
 
 class ResultsContainer(object):
@@ -312,6 +321,8 @@ class ResultsContainer(object):
         self.slope_threshold = []
         self.error_value = []
         return
+    
+    return
     
 class Exporter(object):
     '''
