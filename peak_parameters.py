@@ -276,9 +276,15 @@ class PeakAnalyst(object):
         
         # Find out which error value is needed and write it to object 
         if error_value == 'true_positives':
-            pass
+            self.write_true_positives(value)
         return
-    return
+    
+    def write_true_positives(self, value):
+        '''
+        Writes true positives to results container.
+        '''
+        
+        return
 
 class ResultsContainer(object):
     '''
@@ -307,8 +313,6 @@ class ResultsContainer(object):
         self.error_value = []
         return
     
-    return
-
 class Exporter(object):
     '''
     Summarizes results and exports them to a specified format.
