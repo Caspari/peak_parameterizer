@@ -37,6 +37,27 @@ class Exporter(object):
     Summarizes results and exports them to a specified format.
     '''
     
+    def summarize(self):
+        '''summarizes ReslutContainer error values to error index.'''
+        return
+    
+    def exportToCsv(self, id):
+        ''' 
+        Depending on id, exports error matrix from ResultContainer to csv file.
+        
+        Args: 
+            id: error value or summary to be exported
+                1 = 'false positive',
+                2 = 'true negative',
+                3 = 'false negative'
+                4 = summarized index
+        '''
+        return
+    
+    def stdout(self):
+        '''somehow create standard out for GRASS console''' 
+        return 
+    
     return
 
 def main():
