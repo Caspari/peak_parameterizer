@@ -213,7 +213,7 @@ class PeakAnalyst(object):
             grass.run_command('g.remove',
                               vect=true_positives)
             # Send results to results container object
-            self.results.add_error_value('true positives', 
+            self.results.add_error('true positives', 
                                          peak_map[0], 
                                          peak_map[1], 
                                          true_positives_count)
@@ -239,7 +239,7 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
-            self.results.add_error_value('false positives', 
+            self.results.add_error('false positives', 
                                          peak_map[0], 
                                          peak_map[1], 
                                          false_positives_count)
@@ -265,11 +265,12 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_negatives)
-            self.results.add_error_value('false negatives', 
+            self.results.add_error('false negatives', 
                                          peak_map[0], 
                                          peak_map[1], 
                                          false_negatives_count)
     
+# TODO: Finish this class.
 class ResultsContainer(object):
     '''
     A data container with a three dimensional matrix.
@@ -290,13 +291,9 @@ class ResultsContainer(object):
         '''
         
         self.window_sizes = []
-        self.slope_thresholds = []
-        self.error_values = []
         self.window_size = []
-        self.slope_threshold = []
-        self.error_value = []
     
-    def add_error_value(self, 
+    def add_error(self, 
                         error_type, 
                         window_size, 
                         slope_threshold,
@@ -306,7 +303,13 @@ class ResultsContainer(object):
         structure.
         '''
         
-        # TODO: Get this working
+        # TODO: Make a method that checks if the window size exists
+        if not window_size in self.window_sizes:
+            self.add_window_size(window_size)
+        # If it does, check if the slope threshold's in it
+        # If so, check if the error value is in it
+        # If so, replace the error value
+        # If not, write what needs to be written
         # If error type is already in error_values, note its position.
         if error_type in self.results.error_values:
             # Note position
@@ -317,6 +320,28 @@ class ResultsContainer(object):
         # Repeat for window size
         # Repeat for slope threshold
         # Append error value to correct position in data structure
+    
+    def add_window_size(self, window_size):
+        '''
+        Adds and initializes window size to window size list. Adds window size
+        to window size index.
+        '''
+        
+        pass
+    
+    def add_slope_threshold(self, slope_threshold):
+        '''
+        Adds and initializes slope threshold to slope threshold lists in all
+        existing windows. Adds slope threshold to slope threshold index.
+        '''
+        
+        pass
+
+    def add_error_value(self, error_value):
+        '''
+        Adds and initializes error value to error value lists in all
+        existing slope thresholds. Adds error value to error value index.
+        '''
         
         pass
 
