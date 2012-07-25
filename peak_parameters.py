@@ -79,8 +79,7 @@ class PeakAnalyst(object):
     
     def __init__(self, 
                  options,
-                 flags,
-                 results):
+                 flags):
         '''
         Initializes peak analyst with the window sizes and slope thresholds to
         be used in the analysis. Adjusts regional settings to match rasters
@@ -126,9 +125,12 @@ class PeakAnalyst(object):
             self.error_values.append('false negatives')
         self.dem = options['dem']
         self.peaks = options['peaks']
-        self.results = results
         # Set region to raster
         grass.run_command('g.region', rast=self.dem)
+        # Initialize results container
+        self.results = ResultsContainer(self.window_sizes,
+                                        self.slope_thresholds,
+                                        self.error_values)
     
     def find_peaks(self):
         '''
@@ -285,13 +287,18 @@ class ResultsContainer(object):
     Parallel lists (window_sizes, slope_thresholds, error_values) serve as axes.
     '''
     
-    def __init__(self):
+    def __init__(self,
+                 window_sizes,
+                 slope_thresholds,
+                 error_values):
         '''
         Initializes axes and data matrix.
         '''
         
-        self.window_sizes = []
-        self.window_size = []
+        self.window_sizes = window_sizes
+        self.slope_thresholds = slope_thresholds
+        self.error_values = error_values
+        # TODO: Have this lists be initialized here.
     
     def add_error(self, 
                         error_type, 
@@ -303,9 +310,9 @@ class ResultsContainer(object):
         structure.
         '''
         
-        # TODO: Make a method that checks if the window size exists
         if not window_size in self.window_sizes:
             self.add_window_size(window_size)
+        
         # If it does, check if the slope threshold's in it
         # If so, check if the error value is in it
         # If so, replace the error value
@@ -363,9 +370,8 @@ def main():
              't' : True,
              'n' : True}
     
-    # Initialize data container and peak analyzer object
-    results = ResultsContainer()
-    peak_analyzer = PeakAnalyst(options, flags, results)
+    # Initialize peak analyzer object
+    peak_analyzer = PeakAnalyst(options, flags)
     
     # Find peaks using different windows
     peak_analyzer.find_peaks()
