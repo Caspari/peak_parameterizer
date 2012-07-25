@@ -299,12 +299,23 @@ class ResultsContainer(object):
         self.slope_thresholds = slope_thresholds
         self.error_values = error_values
         # TODO: Have this lists be initialized here.
+        # Initialize window list
+        self.window_size = []
+        for i in range(len(self.window_sizes)):
+            # Append slope lists to windows
+            self.window_size.append([])
+            for j in range(len(slope_thresholds)):
+                # Append error value lists to slope lists
+                self.window_size[i].append([])
+                for k in range(len(self.error_values):
+                    # Make entries for error values
+                    self.window_size[i][j].append([])
     
     def add_error(self, 
-                        error_type, 
-                        window_size, 
-                        slope_threshold,
-                        error_value):
+                  error_type, 
+                  window_size, 
+                  slope_threshold,
+                  error_value):
         '''
         Adds the appropriate error value to the right position in the data 
         structure.
