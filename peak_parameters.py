@@ -305,7 +305,7 @@ class ResultsContainer(object):
             for j in range(len(slope_thresholds)):
                 # Append error value lists to slope lists
                 self.window[i].append([])
-                for k in range(len(self.error_values):
+                for k in range(len(self.error_values)):
                     # Make entries for error values
                     self.window[i][j].append([])
     
