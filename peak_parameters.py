@@ -374,8 +374,6 @@ def main():
     # Extract peaks and convert them to vectors
     for error_value in peak_analyzer.error_values:
         peak_analyzer.evaluate_peaks(error_value)
-    
-    return
 
 if __name__ == '__main__':
     # TODO: Turn GUI parsing back on.
