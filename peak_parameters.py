@@ -215,10 +215,10 @@ class PeakAnalyst(object):
             grass.run_command('g.remove',
                               vect=true_positives)
             # Send results to results container object
-            self.results.add_error('true positives', 
-                                         peak_map[0], 
-                                         peak_map[1], 
-                                         true_positives_count)
+            self.results.add_error(peak_map[0], 
+                                   peak_map[1],
+                                   'true positives', 
+                                   true_positives_count)
     
     def false_positives(self):
         '''
@@ -241,11 +241,11 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_positives)
-            self.results.add_error('false positives', 
-                                         peak_map[0], 
-                                         peak_map[1], 
-                                         false_positives_count)
-    
+            self.results.add_error(peak_map[0], 
+                                   peak_map[1],
+                                   'false positives', 
+                                   false_positives_count)
+
     def false_negatives(self):
         '''
         Count training peaks that are not contained in a classified peak area
@@ -267,10 +267,10 @@ class PeakAnalyst(object):
                                                            flags='c').splitlines())
             grass.run_command('g.remove',
                               vect=false_negatives)
-            self.results.add_error('false negatives', 
-                                         peak_map[0], 
-                                         peak_map[1], 
-                                         false_negatives_count)
+            self.results.add_error(peak_map[0], 
+                                   peak_map[1],
+                                   'false negatives', 
+                                   false_negatives_count)
     
 # TODO: Finish this class.
 class ResultsContainer(object):
@@ -282,7 +282,7 @@ class ResultsContainer(object):
     Z: Error values
     
     The matrix is indexed using the following scheme:
-    matrix[window_size][slope_threshold][error_value]
+    window[window_size][slope_threshold][error_value]
     
     Parallel lists (window_sizes, slope_thresholds, error_values) serve as axes.
     '''
@@ -300,69 +300,34 @@ class ResultsContainer(object):
         self.error_values = error_values
         # TODO: Have this lists be initialized here.
         # Initialize window list
-        self.window_size = []
+        self.window = []
         for i in range(len(self.window_sizes)):
             # Append slope lists to windows
-            self.window_size.append([])
+            self.window.append([])
             for j in range(len(slope_thresholds)):
                 # Append error value lists to slope lists
-                self.window_size[i].append([])
+                self.window[i].append([])
                 for k in range(len(self.error_values):
                     # Make entries for error values
-                    self.window_size[i][j].append([])
+                    self.window[i][j].append([])
     
     def add_error(self, 
-                  error_type, 
                   window_size, 
                   slope_threshold,
+                  error_type,
                   error_value):
         '''
         Adds the appropriate error value to the right position in the data 
         structure.
         '''
         
-        if not window_size in self.window_sizes:
-            self.add_window_size(window_size)
-        
-        # If it does, check if the slope threshold's in it
-        # If so, check if the error value is in it
-        # If so, replace the error value
-        # If not, write what needs to be written
-        # If error type is already in error_values, note its position.
-        if error_type in self.results.error_values:
-            # Note position
-            pass
-        else:
-            # Otherwise add it.
-            pass
-        # Repeat for window size
-        # Repeat for slope threshold
+        # Find indices for window size, slope threshold and error value
+        window_index = self.window_sizes.index(window_size)
+        slope_index = self.slope_thresholds.index(slope_threshold)
+        error_index = self.error_values.index(error_type)
         # Append error value to correct position in data structure
+        self.window[window_index][slope_index][error_index] = error_value
     
-    def add_window_size(self, window_size):
-        '''
-        Adds and initializes window size to window size list. Adds window size
-        to window size index.
-        '''
-        
-        pass
-    
-    def add_slope_threshold(self, slope_threshold):
-        '''
-        Adds and initializes slope threshold to slope threshold lists in all
-        existing windows. Adds slope threshold to slope threshold index.
-        '''
-        
-        pass
-
-    def add_error_value(self, error_value):
-        '''
-        Adds and initializes error value to error value lists in all
-        existing slope thresholds. Adds error value to error value index.
-        '''
-        
-        pass
-
 class Exporter(object):
     '''
     Summarizes results and exports them to a specified format.
