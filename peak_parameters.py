@@ -272,7 +272,6 @@ class PeakAnalyst(object):
                                    'false negatives', 
                                    false_negatives_count)
     
-# TODO: Finish this class.
 class ResultsContainer(object):
     '''
     A data container with a three dimensional matrix.
@@ -298,7 +297,6 @@ class ResultsContainer(object):
         self.window_sizes = window_sizes
         self.slope_thresholds = slope_thresholds
         self.error_values = error_values
-        # TODO: Have this lists be initialized here.
         # Initialize window list
         self.window = []
         for i in range(len(self.window_sizes)):
