@@ -25,7 +25,7 @@
 
 #%Flag
 #% key: f
-#% description: Find false negatives
+#% description: Find false positives
 #% guisection: Validation measurements
 #%End
 
