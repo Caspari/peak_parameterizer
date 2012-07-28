@@ -42,9 +42,23 @@ class Exporter(object):
 
     import csv
     
-    def summarize(self):
-        '''summarizes ResultContainer error values to error index.'''
-        return
+    def summarize(self, tp, fn):
+        '''
+        summarizes ResultContainer error values to error index.
+        
+        The error index calculated here is the 'sensitivity', i.e. the
+        proportion of correctly identified peaks (true positive) to all existing
+        peaks (true positive + false negative).
+        (see http://en.wikipedia.org/wiki/Binary_classification)
+        
+        Args: 
+            tp: true positive count
+            fn: false negative count
+        Returns:
+            sensitivity value
+        '''
+        sensitivity = tp/(tp+fn) 
+        return sensitivity
     
     def exportToCsv(self, container, id, exportpath):
         ''' 
@@ -62,19 +76,26 @@ class Exporter(object):
         self.id = id
         self.exportpath = exportpath
         
-        # could test the integrity of cointainer file: 
+        # could test the integrity of container file: 
         # isinstance(container, ResultContainer)  
         
-        file = open(self.exportpath, "wb")
+        file = open(self.exportpath, 'wb')
         csvWriter = csv.writer(file)
 
         # run through each window of ResultContainer
-        for window in range(0, len(container.matrix)):
+        for window in range(len(container.matrix)):
             errList = []  # set up list of error values for current window
             #  run through each threshold
-            for threshold in range(0, len(container.matrix[window])):
-                # append error values to error list
-                errList.append(container.matrix[window][threshold][self.id])
+            for threshold in range(len(container.matrix[window])):
+                # if summary mode was selected, call summarize()
+                if (self.id == 3): 
+                    tp = container.matrix[window][threshold][0] # correct index?
+                    fn = container.matrix[window][threshold][2] #  ""
+                    summary = self.summarize(fp, fn)
+                    errList.append(summary)
+                # else append error value to error list
+                else:
+                    errList.append(container.matrix[window][threshold][self.id])
                 
             csvWriter.writerow(errList) # write error vals for window to file
         
