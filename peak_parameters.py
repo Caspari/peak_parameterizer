@@ -42,7 +42,7 @@ class Exporter(object):
 
     import csv
     
-    def summarize(self, tp, fn):
+    def summarize(self, tp, fp, fn):
         '''
         summarizes ResultContainer error values to error index.
         
@@ -50,6 +50,8 @@ class Exporter(object):
         proportion of correctly identified peaks (true positive) to all existing
         peaks (true positive + false negative).
         (see http://en.wikipedia.org/wiki/Binary_classification)
+        
+        A different index form can be implemented in the future.
         
         Args: 
             tp: true positive count
@@ -66,15 +68,20 @@ class Exporter(object):
         Args:
             container: ResultContainer object which shall be exported
             id: error value or summary to be exported
-                0 = 'false positive',
-                1 = 'true negative',
-                2 = 'false negative'
+                0 = 'true positives',
+                1 = 'false positives',
+                2 = 'false negatives'
                 3 = summarized index
             exportpath: path where file shall be created, plus FILENAME.csv
         '''
         self.container = container
         self.id = id
         self.exportpath = exportpath
+ 
+        # get indexes of error values in ResultContainer 
+        tp_index = container.error_values.index('true positives')
+        fp_index = container.error_values.index('false positives')
+        fn_index = container.error_values.index('false negatives') 
         
         # could test the integrity of container file: 
         # isinstance(container, ResultContainer)  
@@ -89,9 +96,10 @@ class Exporter(object):
             for threshold in range(len(container.matrix[window])):
                 # if summary mode was selected, call summarize()
                 if (self.id == 3): 
-                    tp = container.matrix[window][threshold][0] # correct index?
-                    fn = container.matrix[window][threshold][2] #  ""
-                    summary = self.summarize(fp, fn)
+                    tp = container.matrix[window][threshold][tp_index]
+                    fp = container.matrix[window][threshold][fp_index]
+                    fn = container.matrix[window][threshold][fn_index]
+                    summary = self.summarize(tp, fp, fn)
                     errList.append(summary)
                 # else append error value to error list
                 else:
