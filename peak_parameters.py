@@ -55,6 +55,7 @@ class Exporter(object):
         
         Args: 
             tp: true positive count
+            fp: false positive count
             fn: false negative count
         Returns:
             sensitivity value
@@ -115,14 +116,79 @@ class Exporter(object):
         return
     
     
-    def stdout(self):
-        '''somehow create standard out for GRASS console''' 
+    def stdout(self, container):
+        '''
+        Matrix of index of error vals as standard out for GRASS console
+        
+        Args:
+            container: ResultContainer object which shall be exported
+        ''' 
         # feste Breite auf 80 Zeichen
         # oben in die Ecke: window/threshold
-        # z.B. feste Leerzeichenzahl -> 8-len(str(Zahl)) Leerzeichen
-        # Oder: Methode r.just, z.B. : entry += value.rjust(7)
+
+        self.container = container
+          
+        xlabel = 't h r e s h o l d'
+        ylabel = 'w i n d o w'
+
+        # get indexes of error values in ResultContainer 
+        tp_index = container.error_values.index('true positives')
+        fp_index = container.error_values.index('false positives')
+        fn_index = container.error_values.index('false negatives') 
 
         
+        def setField(self, arg):
+            '''Returns a string with certain fixed length, left justified'''
+            self.arg = arg
+            if(isinstance(arg, float)):
+                arg = round(arg, 2)         # round floating point numbers
+            if(isinstance(arg, float)):
+                arg = arg[:6]               # truncate strings 
+            
+            return arg.ljust(7)  # return string of length 7, filled with spaces 
+
+
+        ## PRINTING ###
+                        
+        print xlabel.rjust(36)  # print x-label in first row
+                   
+        # print thresholds in second row as list with fixed spaces
+        thresholds = container.slope_thresholds  # create variable to work with
+        for x in range(len(thresholds)):
+            thresholds[x] = setField(thresholds[x])  # set to correct field size
+        thresholds.reverse()  # reverse threshold list
+        thresholds.append('       ') # add seven spaces for row of window sizes
+        thresholds.append('   ')  # three spaces for row of window label
+        thresholds.reverse()  # and reverse back. Now the space is at the front
+        print ''.join(x for x in thresholds)
+          
+        # prepare y-labels for printing. There will be one letter per row.
+        ylabel = ylabel.split()  #separate in list
+        ylabel.reverse()  # reverse --> letters will be popped from list
+        
+        # run through each window of ResultContainer
+        for window in range(len(container.window)):
+            errList = []  # set up list of summarized values for current window
+            # append y-label letter, spaces if ylabels empty
+            if(len(ylabel) > 0):
+                errList. append(ylabel.pop())
+            else:
+                errList.append('   ')    
+            
+            window_size = container.window_sizes(window)  # extract window size
+            errList.append(setField(str(window_size)))  # append window size
+            
+            #  run through each threshold, summarize and append to errList
+            for threshold in range(len(container.window[window])):
+                tp = container.window[window][threshold][tp_index]
+                fp = container.window[window][threshold][fp_index]
+                fn = container.window[window][threshold][fn_index]
+                summary = self.summarize(tp, fp, fn)
+                summary = setField(summary)  # format summary to correct length
+                errList.append(summary)
+                                          
+            # print the summarized values for each threshold in current window
+            print ''.join(x for x in errList)        
         
         return 
     
