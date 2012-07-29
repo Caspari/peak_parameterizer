@@ -122,10 +122,7 @@ class Exporter(object):
         
         Args:
             container: ResultContainer object which shall be exported
-        ''' 
-        # feste Breite auf 80 Zeichen
-        # oben in die Ecke: window/threshold
-
+        '''
         self.container = container
           
         xlabel = 't h r e s h o l d'
@@ -136,7 +133,7 @@ class Exporter(object):
         fp_index = container.error_values.index('false positives')
         fn_index = container.error_values.index('false negatives') 
 
-        
+        # help function
         def setField(self, arg):
             '''Returns a string with certain fixed length, left justified'''
             self.arg = arg
