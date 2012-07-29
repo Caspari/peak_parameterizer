@@ -22,30 +22,33 @@
 #% description: Find true positives
 #% guisection: Validation measurements
 #%End
-
 #%Flag
 #% key: f
 #% description: Find false positives
 #% guisection: Validation measurements
 #%End
-
 #%Flag
 #% key: n
 #% description: Find false negatives
 #% guisection: Validation measurements
 #%End
+#%Flag
+#% key: s
+#% description: Summarize error values
+#% guisection: Validation measurements
+#%End
 
 #%Option
 #% key: dem
-#% type: old,cell,raster
 #% description: The input elevation map
+#% gisprompt: old,cell,raster
 #% required: yes
 #%End
 
 #%Option
 #% key: peaks
 #% description: A vector map of training peaks as points
-#% type: old,vector
+#% gisprompt: old,vector
 #% required: yes
 #%End
 
@@ -54,7 +57,7 @@
 #% type: string
 #% description: A list of integer window sizes separated by commas
 #% required: yes
-#% answer: '3, 5, 9, 19, 39, 69'
+#% answer: 3, 5, 9, 19, 39, 69
 #% guisection: Parameters
 #%End
 
@@ -63,11 +66,12 @@
 #% type: string
 #% description: A list of slope thresholds separated by commas
 #% required: yes
-#% answer: '1, 2, 3, 4, 5, 6, 7, 8, 9, 10'
+#% answer: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 #% guisection: Parameters
 #%End
 
 import os
+import csv
 
 import grass.script as grass
 
@@ -112,7 +116,8 @@ class PeakAnalyst(object):
         # Append error flags to error values list
         self.error_values = []
         for error_flag in flags.keys():
-            self.error_values.append(error_flag)
+            if flags[error_flag]:
+                self.error_values.append(error_flag)
         # Replace error values from flags with readable strings
         if 't' in self.error_values:
             self.error_values.remove('t')
@@ -330,9 +335,29 @@ class Exporter(object):
     '''
     Summarizes results and exports them to a specified format.
     '''
-
-    import csv
     
+    def __init__(self, container, flags):
+        self.container = container
+        # Append error flags to error values list
+        self.error_values = []
+        for error_flag in flags.keys():
+            if flags[error_flag]:
+                self.error_values.append(error_flag)
+        # Replace error values from flags with readable strings
+        if 't' in self.error_values:
+            self.error_values.remove('t')
+            self.error_values.append('true positives')
+        if 'f' in self.error_values:
+            self.error_values.remove('f')
+            self.error_values.append('false positives')
+        if 'n' in self.error_values:
+            self.error_values.remove('n')
+            self.error_values.append('false negatives')
+        if 's' in self.error_values:
+            self.error_values.remove('s')
+            self.error_values.append('summarize')
+        # TODO: Call export methods.
+
     def summarize(self, tp, fp, fn):
         '''
         summarizes ResultContainer error values to error index.
@@ -351,10 +376,12 @@ class Exporter(object):
         Returns:
             sensitivity value
         '''
+        
         sensitivity = tp/(tp+fn) 
         return sensitivity
     
-    def exportToCsv(self, container, errTag, exportpath):
+    # TODO: Position call for this function in a loop over self.error_values.
+    def exportToCsv(self, errTag, exportpath):
         ''' 
         Depending on id, exports error values from a ResultContainer to csv.
         Args:
@@ -367,43 +394,40 @@ class Exporter(object):
                     'summarize'
             exportpath: path where file shall be created, plus FILENAME.csv
         '''
-        self.container = container
-        self.errTag = errTag
-        self.exportpath = exportpath
- 
-        # get indexes of error values in ResultContainer 
-        tp_index = container.error_values.index('true positives')
-        fp_index = container.error_values.index('false positives')
-        fn_index = container.error_values.index('false negatives') 
         
-        file = open(self.exportpath, 'wb')
-        csvWriter = csv.writer(file)
+        # get indexes of error values in ResultContainer 
+        tp_index = self.container.error_values.index('true positives')
+        fp_index = self.container.error_values.index('false positives')
+        fn_index = self.container.error_values.index('false negatives') 
+        
+        output_file = open(self.exportpath, 'wb')
+        csvWriter = csv.writer(output_file)
 
         # run through each window of ResultContainer
-        for window in range(len(container.window)):
+        for window in range(len(self.container.window)):
             errList = []  # set up list of error values for current window
             #  run through each threshold
-            for threshold in range(len(container.window[window])):
+            for threshold in range(len(self.container.window[window])):
                 # if summary mode was selected, call summarize()
                 if (self.errTag == 'summarize'): 
-                    tp = container.window[window][threshold][tp_index]
-                    fp = container.window[window][threshold][fp_index]
-                    fn = container.window[window][threshold][fn_index]
+                    tp = self.container.window[window][threshold][tp_index]
+                    fp = self.container.window[window][threshold][fp_index]
+                    fn = self.container.window[window][threshold][fn_index]
                     summary = self.summarize(tp, fp, fn)
                     errList.append(summary)
                 
                 # else append error value to error list
                 elif (self.errTag == 'true positives'): 
-                    errList.append(container.window[window][threshold][tp_index])
+                    errList.append(self.container.window[window][threshold][tp_index])
                 elif (self.errTag == 'false positives'): 
-                    errList.append(container.window[window][threshold][fp_index])
+                    errList.append(self.container.window[window][threshold][fp_index])
                 elif (self.errTag == 'false negatives'): 
-                    errList.append(container.window[window][threshold][fn_index])
+                    errList.append(self.container.window[window][threshold][fn_index])
                 else: raise(Exception)                
                 
             csvWriter.writerow(errList) # write error vals for window to file
         
-        file.close()  # close file path        
+        output_file.close()  # close file path        
         return
     
     
@@ -490,7 +514,8 @@ def main():
     # Error values. t = true positives, f = false positives, n = false negatives
     flags = {'f' : True,
              't' : True,
-             'n' : True}
+             'n' : True,
+             's' : True}
     
     # Initialize peak analyzer object
     peak_analyzer = PeakAnalyst(options, flags)
@@ -501,8 +526,10 @@ def main():
     # Extract peaks and convert them to vectors
     for error_value in peak_analyzer.error_values:
         peak_analyzer.evaluate_peaks(error_value)
+    
+    # Output error values
+    output_writer = Exporter(peak_analyzer.results, flags)
 
 if __name__ == '__main__':
-    # TODO: Turn GUI parsing back on.
-    #options, flags = grass.parser()
+    options, flags = grass.parser()
     main()
