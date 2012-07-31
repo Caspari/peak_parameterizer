@@ -44,30 +44,32 @@
 #% gisprompt: old,cell,raster
 #% required: yes
 #%End
-
 #%Option
 #% key: peaks
 #% description: A vector map of training peaks as points
 #% gisprompt: old,vector
 #% required: yes
 #%End
-
 #%Option
 #% key: window_sizes
 #% type: string
 #% description: A list of integer window sizes separated by commas
 #% required: yes
 #% answer: 3, 5, 9, 19, 39, 69
-#% guisection: Parameters
 #%End
-
 #%Option
 #% key: slope_thresholds
 #% type: string
 #% description: A list of slope thresholds separated by commas
 #% required: yes
 #% answer: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-#% guisection: Parameters
+#%End
+#%Option
+#% key: export_directory
+#% type: string
+#% description: The directory to export CSVs to.
+#% required: yes
+#% gisprompt: old,dbase,dbase
 #%End
 
 import os
@@ -168,7 +170,7 @@ class PeakAnalyst(object):
                                   output=peak_raster,
                                   rules=reclass_rules)
                 # Use r.to.vect to turn the peaks into areas.
-                peak_vectors = peak_raster
+                peak_vectors = 'p_' + peak_raster
                 grass.run_command('r.to.vect',
                                   input=peak_raster,
                                   output=peak_vectors,
@@ -206,7 +208,7 @@ class PeakAnalyst(object):
         true_positives = 'true_positives'
         
         # peak_map contains [window, slope, map]
-        for peak_map in range(len(self.found_peaks)):
+        for peak_map in self.found_peaks:
             # Find peak areas containing peak points.
             grass.run_command('v.select',
                               ainput=peak_map[2],
@@ -336,8 +338,14 @@ class Exporter(object):
     Summarizes results and exports them to a specified format.
     '''
     
-    def __init__(self, container, flags):
+    def __init__(self, 
+                 container, 
+                 flags, 
+                 options):
         self.container = container
+        self.export_directory = options['export_directory']
+        if not self.export_directory[-1] == '/':
+            self.export_directory += '/'
         # Append error flags to error values list
         self.error_values = []
         for error_flag in flags.keys():
@@ -356,7 +364,12 @@ class Exporter(object):
         if 's' in self.error_values:
             self.error_values.remove('s')
             self.error_values.append('summarize')
-        # TODO: Call export methods.
+        # Call export methods.
+        for error_flag in self.error_values:
+            export_path = (self.export_directory + error_flag + 
+                           '.csv').replace(' ', '_')
+            self.exportToCsv(error_flag, export_path)
+            self.stdout(self.container)
 
     def summarize(self, tp, fp, fn):
         '''
@@ -380,8 +393,7 @@ class Exporter(object):
         sensitivity = tp/(tp+fn) 
         return sensitivity
     
-    # TODO: Position call for this function in a loop over self.error_values.
-    def exportToCsv(self, errTag, exportpath):
+    def exportToCsv(self, errTag, export_path):
         ''' 
         Depending on id, exports error values from a ResultContainer to csv.
         Args:
@@ -392,7 +404,7 @@ class Exporter(object):
                     'false positives',
                     'false negatives'
                     'summarize'
-            exportpath: path where file shall be created, plus FILENAME.csv
+            export_path: path where file shall be created, plus FILENAME.csv
         '''
         
         # get indexes of error values in ResultContainer 
@@ -400,7 +412,7 @@ class Exporter(object):
         fp_index = self.container.error_values.index('false positives')
         fn_index = self.container.error_values.index('false negatives') 
         
-        output_file = open(self.exportpath, 'wb')
+        output_file = open(export_path, 'wb')
         csvWriter = csv.writer(output_file)
 
         # run through each window of ResultContainer
@@ -409,7 +421,7 @@ class Exporter(object):
             #  run through each threshold
             for threshold in range(len(self.container.window[window])):
                 # if summary mode was selected, call summarize()
-                if (self.errTag == 'summarize'): 
+                if (errTag == 'summarize'): 
                     tp = self.container.window[window][threshold][tp_index]
                     fp = self.container.window[window][threshold][fp_index]
                     fn = self.container.window[window][threshold][fn_index]
@@ -417,11 +429,11 @@ class Exporter(object):
                     errList.append(summary)
                 
                 # else append error value to error list
-                elif (self.errTag == 'true positives'): 
+                elif (errTag == 'true positives'): 
                     errList.append(self.container.window[window][threshold][tp_index])
-                elif (self.errTag == 'false positives'): 
+                elif (errTag == 'false positives'): 
                     errList.append(self.container.window[window][threshold][fp_index])
-                elif (self.errTag == 'false negatives'): 
+                elif (errTag == 'false negatives'): 
                     errList.append(self.container.window[window][threshold][fn_index])
                 else: raise(Exception)                
                 
@@ -449,15 +461,14 @@ class Exporter(object):
         fn_index = container.error_values.index('false negatives') 
 
         # help function
-        def setField(self, arg):
+        def setField(arg):
             '''Returns a string with certain fixed length, left justified'''
-            self.arg = arg
             if(isinstance(arg, float)):
                 arg = round(arg, 2)         # round floating point numbers
             if(isinstance(arg, float)):
                 arg = arg[:6]               # truncate strings 
             
-            return arg.ljust(7)  # return string of length 7, filled with spaces 
+            return str(arg).ljust(7)  # return string of length 7, filled with spaces 
 
 
         ## PRINTING ###
@@ -506,29 +517,23 @@ class Exporter(object):
     
 
 def main():
-    # Override GUI inputs
-    # Window sizes: 3x3, 5x5, 9x9, 19x19, 39x39, 69x69
-    options = {'window_sizes'     : '3, 5, 9, 19, 39, 69',
-               # For each window, iterate with slope threshold 1-10
-               'slope_thresholds' : str(range(1, 11))[1:-1]}
-    # Error values. t = true positives, f = false positives, n = false negatives
-    flags = {'f' : True,
-             't' : True,
-             'n' : True,
-             's' : True}
-    
     # Initialize peak analyzer object
     peak_analyzer = PeakAnalyst(options, flags)
     
     # Find peaks using different windows
+    print('Finding peaks')
     peak_analyzer.find_peaks()
     
-    # Extract peaks and convert them to vectors
+    # Extract error values and write them to data container
+    print('Extracting error values...')
     for error_value in peak_analyzer.error_values:
         peak_analyzer.evaluate_peaks(error_value)
     
     # Output error values
-    output_writer = Exporter(peak_analyzer.results, flags)
+    print('Writing results to file...')
+    output_writer = Exporter(peak_analyzer.results, 
+                             flags, 
+                             options)
 
 if __name__ == '__main__':
     options, flags = grass.parser()
