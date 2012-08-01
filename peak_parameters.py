@@ -416,7 +416,7 @@ class Exporter(object):
         csvWriter = csv.writer(output_file)
 
         # create header variable for labels
-        header = container.slope_thresholds  
+        header = self.container.slope_thresholds  
         # add 'threshold' text to labels
         for i in range(len(header)):
             header[i] = 'threshold_' + str(header[i])
@@ -430,7 +430,7 @@ class Exporter(object):
         # run through each window of ResultContainer
         for window in range(len(self.container.window)):
             errList = []  # set up list of error values for current window
-            errList.append(container.window_sizes[window]) # window size in first row
+            errList.append(self.container.window_sizes[window]) # window size in first row
             #  run through each threshold
             for threshold in range(len(self.container.window[window])):
                 # if summary mode was selected, call summarize()
@@ -511,7 +511,7 @@ class Exporter(object):
             else:
                 errList.append('   ')    
             
-            window_size = container.window_sizes(window)  # extract window size
+            window_size = container.window_sizes[window]  # extract window size
             errList.append(setField(str(window_size)))  # append window size
             
             #  run through each threshold, summarize and append to errList
