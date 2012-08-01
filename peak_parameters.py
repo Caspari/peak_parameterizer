@@ -373,16 +373,16 @@ class Exporter(object):
 
     def summarize(self, tp, fp, fn):
         '''
-        summarizes ResultContainer error values to error index.
+        Summarizes ResultContainer error values to error index.
         
         The error index calculated here is the 'sensitivity', i.e. the
-        proportion of correctly identified peaks (true positive) to all existing
-        peaks (true positive + false negative).
-        (see http://en.wikipedia.org/wiki/Binary_classification)
+        proportion of correctly identified peaks (true positive) to all
+        existing peaks (true positive + false negative)
+        (see http://en.wikipedia.org/wiki/Binary_classification).
         
         A different index form can be implemented in the future.
         
-        Args: 
+        Arguments:
             tp: true positive count
             fp: false positive count
             fn: false negative count
@@ -407,7 +407,7 @@ class Exporter(object):
             export_path: path where file shall be created, plus FILENAME.csv
         '''
         
-        # get indexes of error values in ResultContainer 
+        # Get indices of error values in ResultContainer 
         tp_index = self.container.error_values.index('true positives')
         fp_index = self.container.error_values.index('false positives')
         fn_index = self.container.error_values.index('false negatives') 
@@ -415,33 +415,33 @@ class Exporter(object):
         output_file = open(export_path, 'wb')
         csvWriter = csv.writer(output_file)
 
-        # create header variable for labels
+        # Create header variable for labels
         header = container.slope_thresholds  
-        # add 'threshold' text to labels
+        # Add 'threshold' to labels
         for i in range(len(header)):
             header[i] = 'threshold_' + str(header[i])
-        # append window size label to front of header list
+        # Append window size label to front of header list
         header.reverse()
         header.append('window_size')
         header.reverse()
-        # write header
+        # Write header
         csvWriter.writerow(header)
         
-        # run through each window of ResultContainer
+        # Loop over each window of ResultContainer
         for window in range(len(self.container.window)):
-            errList = []  # set up list of error values for current window
-            errList.append(container.window_sizes[window]) # window size in first row
-            #  run through each threshold
+            # Append window size of first row
+            errList = []
+            errList.append(container.window_sizes[window])
+            # Loop over each threshold
             for threshold in range(len(self.container.window[window])):
-                # if summary mode was selected, call summarize()
+                # If summary mode was selected, call summarize()
                 if (errTag == 'summarize'): 
                     tp = self.container.window[window][threshold][tp_index]
                     fp = self.container.window[window][threshold][fp_index]
                     fn = self.container.window[window][threshold][fn_index]
                     summary = self.summarize(tp, fp, fn)
                     errList.append(summary)
-                
-                # else append error value to error list
+                # If not, append error value to error list
                 elif (errTag == 'true positives'): 
                     errList.append(self.container.window[window][threshold][tp_index])
                 elif (errTag == 'false positives'): 
@@ -450,80 +450,89 @@ class Exporter(object):
                     errList.append(self.container.window[window][threshold][fn_index])
                 else: raise(Exception)                
                 
-            csvWriter.writerow(errList) # write error vals for window to file
+            # Write error values for window to file
+            csvWriter.writerow(errList)
         
-        output_file.close()  # close file path        
+        output_file.close()        
         return
     
     
-    def stdout(self, container):
+    def stdout(self):
         '''
-        Matrix of index of error vals as standard out for GRASS console
+        Sends matrix of error values to standard out.
         
-        Args:
+        Arguments
             container: ResultContainer object which shall be exported
         '''
+
+        def setField(arg, length=7):
+            '''
+            Returns a padded, left justified string with a specified length.
+            '''
+            
+            if(isinstance(arg, float)):
+                # Round float values
+                arg = round(arg, 2)
+                # Truncate string
+                arg = arg[:6] 
+            
+            return str(arg).ljust(length) 
+
         self.container = container
           
         xlabel = 't h r e s h o l d'
         ylabel = 'w i n d o w'
 
-        # get indexes of error values in ResultContainer 
+        # Get indices of error values in ResultContainer 
         tp_index = container.error_values.index('true positives')
         fp_index = container.error_values.index('false positives')
         fn_index = container.error_values.index('false negatives') 
 
-        # help function
-        def setField(arg):
-            '''Returns a string with certain fixed length, left justified'''
-            if(isinstance(arg, float)):
-                arg = round(arg, 2)         # round floating point numbers
-            if(isinstance(arg, float)):
-                arg = arg[:6]               # truncate strings 
-            
-            return str(arg).ljust(7)  # return string of length 7, filled with spaces 
-
-
-        ## PRINTING ###
-                        
-        print xlabel.rjust(36)  # print x-label in first row
-                   
-        # print thresholds in second row as list with fixed spaces
-        thresholds = container.slope_thresholds  # create variable to work with
+        # Start printing to standard out                        
+        # Print x-label in first row
+        print xlabel.rjust(36)
+        # Print thresholds in second row as list with fixed spaces
+        thresholds = container.slope_thresholds
         for x in range(len(thresholds)):
-            thresholds[x] = setField(thresholds[x])  # set to correct field size
-        thresholds.reverse()  # reverse threshold list
-        thresholds.append('       ') # add seven spaces for row of window sizes
-        thresholds.append('   ')  # three spaces for row of window label
-        thresholds.reverse()  # and reverse back. Now the space is at the front
+            thresholds[x] = setField(thresholds[x])
+        thresholds.reverse()
+        # Add seven spaces for row of window sizes
+        thresholds.append('       ')
+        # Add three spaces for row of window label
+        thresholds.append('   ')
+        # Reverse back, positioning the space at the front
+        thresholds.reverse()
         print ''.join(x for x in thresholds)
-          
-        # prepare y-labels for printing. There will be one letter per row.
-        ylabel = ylabel.split()  #separate in list
-        ylabel.reverse()  # reverse --> letters will be popped from list
         
-        # run through each window of ResultContainer
+        # Prepare y-labels for printing. There will be one letter per row.
+        ylabel = ylabel.split()
+        # Reverse list so that letters can be popped from it
+        ylabel.reverse()
+        
+        # Loop over each window of ResultContainer
         for window in range(len(container.window)):
-            errList = []  # set up list of summarized values for current window
-            # append y-label letter, spaces if ylabels empty
+            errList = []
+            # If ylabels is empty, append y-label letter, spaces
             if(len(ylabel) > 0):
                 errList. append(ylabel.pop())
             else:
                 errList.append('   ')    
             
-            window_size = container.window_sizes(window)  # extract window size
-            errList.append(setField(str(window_size)))  # append window size
+            # Extract window size
+            window_size = container.window_sizes(window)
+            errList.append(setField(str(window_size)))
             
-            #  run through each threshold, summarize and append to errList
+            # Loop over each threshold, summarize and append to errList
             for threshold in range(len(container.window[window])):
                 tp = container.window[window][threshold][tp_index]
                 fp = container.window[window][threshold][fp_index]
                 fn = container.window[window][threshold][fn_index]
                 summary = self.summarize(tp, fp, fn)
-                summary = setField(summary)  # format summary to correct length
+                # Format summary to correct length
+                summary = setField(summary)
                 errList.append(summary)
                                           
-            # print the summarized values for each threshold in current window
+            # Print the summarized values for each threshold in current window
             print ''.join(x for x in errList)        
         
         return 
