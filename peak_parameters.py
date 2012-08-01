@@ -415,8 +415,9 @@ class Exporter(object):
         output_file = open(export_path, 'wb')
         csvWriter = csv.writer(output_file)
 
-        # create header variable for labels
-        header = self.container.slope_thresholds  
+        # Copy slope threshold list so that it can be used without modifying
+        # the original.
+        header = list(self.container.slope_thresholds)  
         # add 'threshold' text to labels
         for i in range(len(header)):
             header[i] = 'threshold_' + str(header[i])
@@ -541,6 +542,13 @@ def main():
     for error_value in peak_analyzer.error_values:
         peak_analyzer.evaluate_peaks(error_value)
     
+    # TODO: Delete after debugging
+#    print(peak_analyzer.results.window_sizes)
+#    print(peak_analyzer.results.slope_thresholds)
+#    print(peak_analyzer.results.error_values)
+#    print(peak_analyzer.results.window)
+    
+    # TODO: Reactivate after debugging
     # Output error values
     print('Writing results to file...')
     output_writer = Exporter(peak_analyzer.results, 
