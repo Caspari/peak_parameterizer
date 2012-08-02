@@ -390,7 +390,7 @@ class Exporter(object):
             sensitivity value
         '''
         
-        sensitivity = tp/(tp+fn) 
+        sensitivity = tp / (tp + fn) - fp / (tp + fn)
         return sensitivity
     
     def exportToCsv(self, errTag, export_path):
