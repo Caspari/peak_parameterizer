@@ -507,7 +507,7 @@ class Exporter(object):
             errList = []  # set up list of summarized values for current window
             # append y-label letter, spaces if ylabels empty
             if(len(ylabel) > 0):
-                errList. append(ylabel.pop())
+                errList.append(ylabel.pop().ljust(3))
             else:
                 errList.append('   ')    
             
@@ -524,9 +524,13 @@ class Exporter(object):
                 errList.append(summary)
                                           
             # print the summarized values for each threshold in current window
-            print ''.join(x for x in errList)        
+            print ''.join(x for x in errList)
         
-        return 
+        # if there are still some window label letters left, print them
+        while (len(ylabel) > 0): 
+            print ylabel.pop()    
+        
+        return
     
 
 def main():
