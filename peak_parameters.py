@@ -369,7 +369,7 @@ class Exporter(object):
             export_path = (self.export_directory + error_flag + 
                            '.csv').replace(' ', '_')
             self.exportToCsv(error_flag, export_path)
-            self.stdout()
+        self.stdout()
 
     def summarize(self, tp, fp, fn):
         '''
