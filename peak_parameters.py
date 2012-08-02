@@ -179,7 +179,7 @@ class PeakAnalyst(object):
                 # of found peaks
                 self.found_peaks.append([window, slope_threshold, peak_vectors])
                 # Delete the geomorphometry map and raster peak map.
-                for raster in [feature_map, peak_raster]:
+                for raster in [peak_raster, feature_map]:
                     grass.run_command('g.remove',
                                       rast=raster)
         # Delete reclass table
