@@ -485,7 +485,8 @@ class Exporter(object):
 
 
         ## PRINTING ###
-                        
+        
+        print 'Summarized error values:\n'             
         print xlabel.rjust(36)  # print x-label in first row
                    
         # print thresholds in second row as list with fixed spaces
