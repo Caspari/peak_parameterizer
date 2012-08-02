@@ -520,7 +520,7 @@ class Exporter(object):
                 errList.append('   ')    
             
             # Extract window size
-            window_size = self.container.window_sizes(window)
+            window_size = self.container.window_sizes[window]
             errList.append(setField(str(window_size)))
             
             # Loop over each threshold, summarize and append to errList
