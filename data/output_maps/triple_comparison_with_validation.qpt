@@ -1,0 +1,86 @@
+<Composer title="Composer 6" visible="1">
+ <ComposerLegend symbolWidth="7" title="Legende" boxSpace="2" titleFont="Sans Serif,16,-1,0,50,0,0,0,0,0" map="0" groupFont="Sans Serif,14,-1,0,50,0,0,0,0,0" layerFont="Sans Serif,12,-1,0,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans Serif,12,-1,0,50,0,0,0,0,0">
+  <Model autoUpdate="1">
+   <LayerItem layerId="gipfel20120803113458247" text="">
+    <VectorClassificationItemNg text="Validierungsgipfel">
+     <symbols>
+      <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+       <layer pass="0" class="SimpleMarker" locked="0">
+        <prop k="angle" v="0"/>
+        <prop k="color" v="255,0,0,255"/>
+        <prop k="color_border" v="255,0,0,255"/>
+        <prop k="name" v="triangle"/>
+        <prop k="offset" v="0,0"/>
+        <prop k="size" v="1"/>
+       </layer>
+      </symbol>
+     </symbols>
+    </VectorClassificationItemNg>
+   </LayerItem>
+   <LayerItem layerId="3_10_peaks20120803112940462" text=""/>
+   <LayerItem layerId="3_10_peaks20120803112940462" text="">
+    <RasterClassificationItem layerId="3_10_peaks20120803112940462" color="#0000ff" text="Klassifiziert als Gipfel"/>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="53" x="243.623" y="0.347611" rotation="0" height="25.6" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.87678" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet>
+   <Layer>3_5_peaks20120803113034684</Layer>
+   <Layer>gipfel20120803113458247</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="101.077" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet>
+   <Layer>3_10_peaks20120803112940462</Layer>
+   <Layer>gipfel20120803113458247</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="202.453" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="false">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet>
+   <Layer>3_1_peaks20120803112944004</Layer>
+   <Layer>gipfel20120803113458247</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="0" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerScaleBar segmentMillimeters="23.2433" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+  <BrushColor red="0" blue="0" green="0"/>
+  <ComposerItem width="61.9866" x="234.942" y="196.053" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerScaleBar>
+ <ComposerPicture pictureWidth="11.5568" file="/usr/share/qgis/svg/north_arrows/NorthArrow2.svg" pictureHeight="13.8" mapId="-1">
+  <ComposerItem width="11.5568" x="223.781" y="195.881" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="2.87678" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerPicture>
+ <Composition printResolution="150" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>

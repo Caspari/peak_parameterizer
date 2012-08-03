@@ -24,7 +24,22 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendgroup open="false" checked="Qt::Unchecked" name="window69">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="window69">
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="69_1" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_120120803142013510" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="69_10" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_1020120803142033529" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="69_5" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_520120803142040219" visible="1"/>
+                </filegroup>
+            </legendlayer>
             <legendlayer drawingOrder="19" open="false" checked="Qt::Unchecked" name="69_10_peaks" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="69_10_peaks20120803113200102" visible="0"/>
@@ -336,14 +351,14 @@
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="gipfel" showFeatureCount="0">
-            <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="gipfel20120803113458247" visible="1"/>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="gipfel" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gipfel20120803113458247" visible="0"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="60" open="false" checked="Qt::Checked" name="dgm_colored_relief" showFeatureCount="0">
+        <legendlayer drawingOrder="60" open="false" checked="Qt::Unchecked" name="dgm_colored_relief" showFeatureCount="0">
             <filegroup open="false" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="dgm_colored_relief20120802101028166" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="dgm_colored_relief20120802101028166" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
@@ -356,6 +371,17 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="5.09716e+06" xmin="346433" ymax="5.1945e+06" xmax="422693"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.08725" id="" positionLock="true">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
         <ComposerScaleBar segmentMillimeters="29.0877" numMapUnitsPerScaleBarUnit="2" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
             <BrushColor red="0" blue="0" green="0"/>
             <ComposerItem width="73.6755" x="5" y="281.2" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
@@ -369,20 +395,264 @@
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerPicture>
+        <Composition printResolution="150" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 2" visible="0">
+        <ComposerScaleBar segmentMillimeters="29.0877" numMapUnitsPerScaleBarUnit="2" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="73.6755" x="5" y="281.2" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
+        <ComposerLabel valign="32" labelText="Validierungsgipfel: " halign="1" margin="1">
+            <LabelFont description="Sans Serif,16,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="53.6592" x="274.045" y="37.3698" rotation="0" height="9.58199" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.08725" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLabel valign="32" labelText="Koordinatensystem: EPSG:3044 (UTM32N ETRS89)" halign="1" margin="1">
+            <LabelFont description="Sans Serif,10,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="87.8016" x="117.198" y="287.334" rotation="0" height="7.66559" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
         <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
             <Extent ymin="5.09716e+06" xmin="346433" ymax="5.1945e+06" xmax="422693"/>
             <LayerSet/>
             <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
                 <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
             </Grid>
-            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.08725" id="" positionLock="true">
+            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.08725" id="" positionLock="false">
                 <FrameColor alpha="255" red="0" blue="0" green="0"/>
                 <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
             </ComposerItem>
         </ComposerMap>
+        <ComposerPicture pictureWidth="17.2356" file="/usr/share/qgis/svg/north_arrows/north-arrow_3_simple_symmetric_triangular.svg" pictureHeight="15.2718" mapId="-1">
+            <ComposerItem width="17.2356" x="90.3822" y="280.818" rotation="0" height="15.2718" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerLegend symbolWidth="7" title="" boxSpace="2" titleFont="Sans Serif,16,-1,0,50,0,0,0,0,0" map="0" groupFont="Sans Serif,14,-1,0,50,0,0,0,0,0" layerFont="Sans Serif,12,-1,0,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans Serif,12,-1,0,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="gipfel20120803113458247" text="">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="164,164,164,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="triangle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="3.5"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="69_120120803142013510" text="69_1">
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#ff0000" text=""/>
+                </LayerItem>
+                <LayerItem layerId="69_1020120803142033529" text="69_10">
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ff0000" text=""/>
+                </LayerItem>
+                <LayerItem layerId="69_520120803142040219" text="69_5">
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ff0000" text=""/>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="11" x="324.183" y="37.2862" rotation="0" height="150.5" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="2.08725" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 3" visible="0">
+        <ComposerLabel valign="32" labelText="Koordinatensystem: EPSG:3044 (UTM32N ETRS89)" halign="1" margin="1">
+            <LabelFont description="Sans Serif,10,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="87.8016" x="117.198" y="287.334" rotation="0" height="7.66559" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="5.0694e+06" xmin="353521" ymax="5.16674e+06" xmax="429781"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="0.254614" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerScaleBar segmentMillimeters="29.0877" numMapUnitsPerScaleBarUnit="2" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="73.6755" x="5" y="281.2" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
+        <ComposerPicture pictureWidth="17.2356" file="/usr/share/qgis/svg/north_arrows/north-arrow_3_simple_symmetric_triangular.svg" pictureHeight="15.2718" mapId="-1">
+            <ComposerItem width="17.2356" x="90.3822" y="280.818" rotation="0" height="15.2718" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <Composition printResolution="300" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+    </Composer>
+    <Composer title="Composer 4" visible="0">
+        <ComposerLabel valign="32" labelText="Validierungsgipfel: " halign="1" margin="1">
+            <LabelFont description="Sans Serif,16,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="47.4309" x="0" y="0" rotation="0" height="9.10289" frame="false" outlineWidth="0.3" zValue="5" lastValidViewScaleFactor="4.1745" id="" positionLock="true">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerLabel valign="32" labelText="Koordinatensystem: EPSG:3044 (UTM32N ETRS89)" halign="1" margin="1">
+            <LabelFont description="Sans Serif,10,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="87.8016" x="117.198" y="287.334" rotation="0" height="7.66559" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="5.09716e+06" xmin="346433" ymax="5.1945e+06" xmax="422693"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerScaleBar segmentMillimeters="29.0877" numMapUnitsPerScaleBarUnit="2" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="73.6755" x="5" y="281.2" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
+        <ComposerPicture pictureWidth="17.2356" file="/usr/share/qgis/svg/north_arrows/north-arrow_3_simple_symmetric_triangular.svg" pictureHeight="15.2718" mapId="-1">
+            <ComposerItem width="17.2356" x="90.3822" y="280.818" rotation="0" height="15.2718" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerLegend symbolWidth="7" title="" boxSpace="2" titleFont="Sans Serif,16,-1,0,50,0,0,0,0,0" map="0" groupFont="Sans Serif,14,-1,0,50,0,0,0,0,0" layerFont="Sans Serif,12,-1,0,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans Serif,12,-1,0,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="gipfel20120803113458247" text="">
+                    <VectorClassificationItemNg text="">
+                        <symbols>
+                            <symbol outputUnit="MM" alpha="1" type="marker" name="classificationSymbol">
+                                <layer pass="0" class="SimpleMarker" locked="0">
+                                    <prop k="angle" v="0"/>
+                                    <prop k="color" v="115,69,164,255"/>
+                                    <prop k="color_border" v="0,0,0,255"/>
+                                    <prop k="name" v="triangle"/>
+                                    <prop k="offset" v="0,0"/>
+                                    <prop k="size" v="3.5"/>
+                                </layer>
+                            </symbol>
+                        </symbols>
+                    </VectorClassificationItemNg>
+                </LayerItem>
+                <LayerItem layerId="69_120120803142013510" text="69_1">
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_120120803142013510" color="#ff0000" text=""/>
+                </LayerItem>
+                <LayerItem layerId="69_1020120803142033529" text="69_10">
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ff0000" text=""/>
+                </LayerItem>
+                <LayerItem layerId="69_520120803142040219" text="69_5">
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ff0000" text=""/>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="11" x="46.963" y="0" rotation="0" height="150.5" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="4.1745" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
         <Composition printResolution="150" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
     </Composer>
-    <projectlayers layercount="62">
+    <Composer title="Composer 5" visible="0">
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="5.09323e+06" xmin="308158" ymax="5.16554e+06" xmax="460953"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="336" x="-65.2836" y="15.4478" rotation="0" height="159" frame="true" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.92953" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" titleFont="Sans Serif,16,-1,0,50,0,0,0,0,0" map="0" groupFont="Sans Serif,14,-1,0,50,0,0,0,0,0" layerFont="Sans Serif,12,-1,0,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans Serif,12,-1,0,50,0,0,0,0,0">
+            <Model autoUpdate="1">
+                <LayerItem layerId="69_1020120803142033529" text="69_10">
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_1020120803142033529" color="#ff0000" text=""/>
+                </LayerItem>
+                <LayerItem layerId="69_520120803142040219" text="69_5">
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#b4b4b4" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#000000" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#0000ff" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#00ff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ffff00" text=""/>
+                    <RasterClassificationItem layerId="69_520120803142040219" color="#ff0000" text=""/>
+                </LayerItem>
+            </Model>
+            <ComposerItem width="22" x="243.144" y="37.806" rotation="0" height="115.2" frame="true" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.92953" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLegend>
+        <Composition printResolution="300" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+    </Composer>
+    <projectlayers layercount="65">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>19_10_peaks20120803112825907</id>
             <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_10_peaks</datasource>
@@ -409,9 +679,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -460,9 +730,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -511,9 +781,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -562,9 +832,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -613,9 +883,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -664,9 +934,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -715,9 +985,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -766,9 +1036,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -817,9 +1087,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -868,9 +1138,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -919,9 +1189,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -970,9 +1240,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1021,9 +1291,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1072,9 +1342,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1123,9 +1393,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1174,9 +1444,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1225,9 +1495,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1276,9 +1546,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1327,9 +1597,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1378,9 +1648,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1429,9 +1699,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1480,9 +1750,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1531,9 +1801,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1582,9 +1852,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1633,9 +1903,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1684,9 +1954,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1735,9 +2005,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1786,9 +2056,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1837,9 +2107,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1888,9 +2158,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1939,9 +2209,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -1990,9 +2260,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2041,9 +2311,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2092,9 +2362,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2143,9 +2413,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2194,9 +2464,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2245,9 +2515,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2296,9 +2566,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2347,9 +2617,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2398,9 +2668,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2421,6 +2691,66 @@
                 <threeValuePixelList>
                     <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
                 </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_1020120803142033529</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_10</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T12:54:41</timestamp>
+            <layername>69_10</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>PalettedColor</mDrawingStyle>
+                <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+                <customColorRamp>
+                    <colorRampType>INTERPOLATED</colorRampType>
+                    <colorRampEntry red="180" blue="180" value="1.000000" green="180" label=""/>
+                    <colorRampEntry red="0" blue="0" value="2.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="255" value="3.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="0" value="4.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="5.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="6.000000" green="0" label=""/>
+                </customColorRamp>
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -2449,9 +2779,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2472,6 +2802,66 @@
                 <threeValuePixelList>
                     <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
                 </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_120120803142013510</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_1</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T11:33:39</timestamp>
+            <layername>69_1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>PalettedColor</mDrawingStyle>
+                <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+                <customColorRamp>
+                    <colorRampType>INTERPOLATED</colorRampType>
+                    <colorRampEntry red="180" blue="180" value="1.000000" green="180" label=""/>
+                    <colorRampEntry red="0" blue="0" value="2.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="255" value="3.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="0" value="4.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="5.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="6.000000" green="0" label=""/>
+                </customColorRamp>
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -2500,9 +2890,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2551,9 +2941,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2602,9 +2992,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2653,9 +3043,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2676,6 +3066,66 @@
                 <threeValuePixelList>
                     <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
                 </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_520120803142040219</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_5</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T12:09:33</timestamp>
+            <layername>69_5</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>PalettedColor</mDrawingStyle>
+                <mColorShadingAlgorithm>ColorRampShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+                <customColorRamp>
+                    <colorRampType>INTERPOLATED</colorRampType>
+                    <colorRampEntry red="180" blue="180" value="1.000000" green="180" label=""/>
+                    <colorRampEntry red="0" blue="0" value="2.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="255" value="3.000000" green="0" label=""/>
+                    <colorRampEntry red="0" blue="0" value="4.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="5.000000" green="255" label=""/>
+                    <colorRampEntry red="255" blue="0" value="6.000000" green="0" label=""/>
+                </customColorRamp>
             </rasterproperties>
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
@@ -2704,9 +3154,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2755,9 +3205,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2806,9 +3256,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2857,9 +3307,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2908,9 +3358,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -2959,9 +3409,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3010,9 +3460,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3061,9 +3511,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3112,9 +3562,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3163,9 +3613,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3214,9 +3664,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3265,9 +3715,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3316,9 +3766,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3367,9 +3817,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3418,9 +3868,9 @@
                 <mDrawingStyle>SingleBandGray</mDrawingStyle>
                 <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
                 <mInvertColor boolean="false"/>
-                <mRedBandName></mRedBandName>
-                <mGreenBandName></mGreenBandName>
-                <mBlueBandName></mBlueBandName>
+                <mRedBandName>Not Set</mRedBandName>
+                <mGreenBandName>Not Set</mGreenBandName>
+                <mBlueBandName>Not Set</mBlueBandName>
                 <mGrayBandName>Band 1</mGrayBandName>
                 <mStandardDeviations>0</mStandardDeviations>
                 <mUserDefinedRGBMinimumMaximum boolean="false"/>
@@ -3528,7 +3978,7 @@
                     <symbol outputUnit="MM" alpha="1" type="marker" name="0">
                         <layer pass="0" class="SimpleMarker" locked="0">
                             <prop k="angle" v="0"/>
-                            <prop k="color" v="164,164,164,255"/>
+                            <prop k="color" v="115,69,164,255"/>
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="triangle"/>
                             <prop k="offset" v="0,0"/>
@@ -3565,9 +4015,9 @@
             <edittypes>
                 <edittype type="0" name="int_1"/>
             </edittypes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <attributeactions/>
             <overlay display="false" type="diagram">
                 <renderer item_interpretation="linear">
