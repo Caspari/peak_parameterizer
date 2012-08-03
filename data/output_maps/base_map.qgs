@@ -4,9 +4,9 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>278885.036844</xmin>
+            <xmin>308157.925009</xmin>
             <ymin>5093234.818818</ymin>
-            <xmax>490225.691727</xmax>
+            <xmax>460952.803562</xmax>
             <ymax>5208406.837827</ymax>
         </extent>
         <projections>0</projections>
@@ -24,16 +24,3393 @@
         </destinationsrs>
     </mapcanvas>
     <legend updateDrawingOrder="false">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="dgm_colored_relief" showFeatureCount="0">
+        <legendgroup open="false" checked="Qt::Unchecked" name="window69">
+            <legendlayer drawingOrder="19" open="false" checked="Qt::Unchecked" name="69_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_10_peaks20120803113200102" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="69_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_1_peaks20120803113228419" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="69_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_2_peaks20120803113231043" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="12" open="false" checked="Qt::Unchecked" name="69_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_3_peaks20120803113233405" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="13" open="false" checked="Qt::Unchecked" name="69_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_4_peaks20120803113235368" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="69_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_5_peaks20120803113237385" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="15" open="false" checked="Qt::Unchecked" name="69_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_6_peaks20120803113239788" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="16" open="false" checked="Qt::Unchecked" name="69_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_7_peaks20120803113241703" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="17" open="false" checked="Qt::Unchecked" name="69_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_8_peaks20120803113243688" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="18" open="false" checked="Qt::Unchecked" name="69_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="69_9_peaks20120803113245716" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="window39">
+            <legendlayer drawingOrder="59" open="false" checked="Qt::Unchecked" name="39_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_10_peaks20120803112903050" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="58" open="false" checked="Qt::Unchecked" name="39_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_1_peaks20120803112906551" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="57" open="false" checked="Qt::Unchecked" name="39_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_2_peaks20120803112909230" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="56" open="false" checked="Qt::Unchecked" name="39_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_3_peaks20120803112911791" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="55" open="false" checked="Qt::Unchecked" name="39_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_4_peaks20120803112914426" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="54" open="false" checked="Qt::Unchecked" name="39_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_5_peaks20120803112916971" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="53" open="false" checked="Qt::Unchecked" name="39_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_6_peaks20120803112919965" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="52" open="false" checked="Qt::Unchecked" name="39_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_7_peaks20120803112922467" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="51" open="false" checked="Qt::Unchecked" name="39_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_8_peaks20120803112924814" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="50" open="false" checked="Qt::Unchecked" name="39_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="39_9_peaks20120803112927504" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="window19">
+            <legendlayer drawingOrder="40" open="false" checked="Qt::Unchecked" name="19_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_10_peaks20120803112825907" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="41" open="false" checked="Qt::Unchecked" name="19_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_1_peaks20120803112830472" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="42" open="false" checked="Qt::Unchecked" name="19_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_2_peaks20120803112833305" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="43" open="false" checked="Qt::Unchecked" name="19_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_3_peaks20120803112836042" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="44" open="false" checked="Qt::Unchecked" name="19_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_4_peaks20120803112839083" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="45" open="false" checked="Qt::Unchecked" name="19_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_5_peaks20120803112841397" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="46" open="false" checked="Qt::Unchecked" name="19_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_6_peaks20120803112843863" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="47" open="false" checked="Qt::Unchecked" name="19_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_7_peaks20120803112846104" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="48" open="false" checked="Qt::Unchecked" name="19_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_8_peaks20120803112848314" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="49" open="false" checked="Qt::Unchecked" name="19_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="19_9_peaks20120803112850541" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="window9">
+            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="9_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_10_peaks20120803113249528" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="0" open="false" checked="Qt::Unchecked" name="9_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_1_peaks20120803113309090" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="1" open="false" checked="Qt::Unchecked" name="9_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_2_peaks20120803113311475" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="2" open="false" checked="Qt::Unchecked" name="9_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_3_peaks20120803113313413" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="3" open="false" checked="Qt::Unchecked" name="9_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_4_peaks20120803113315176" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="9_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_5_peaks20120803113316906" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="9_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_6_peaks20120803113318707" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="6" open="false" checked="Qt::Unchecked" name="9_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_7_peaks20120803113320567" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="7" open="false" checked="Qt::Unchecked" name="9_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_8_peaks20120803113322393" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="8" open="false" checked="Qt::Unchecked" name="9_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="9_9_peaks20120803113324628" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="window5">
+            <legendlayer drawingOrder="20" open="false" checked="Qt::Unchecked" name="5_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_10_peaks20120803113108763" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="21" open="false" checked="Qt::Unchecked" name="5_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_1_peaks20120803113111187" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="22" open="false" checked="Qt::Unchecked" name="5_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_2_peaks20120803113118295" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="23" open="false" checked="Qt::Unchecked" name="5_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_3_peaks20120803113120427" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="24" open="false" checked="Qt::Unchecked" name="5_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_4_peaks20120803113122755" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="25" open="false" checked="Qt::Unchecked" name="5_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_5_peaks20120803113124678" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="26" open="false" checked="Qt::Unchecked" name="5_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_6_peaks20120803113126424" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="27" open="false" checked="Qt::Unchecked" name="5_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_7_peaks20120803113128106" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="28" open="false" checked="Qt::Unchecked" name="5_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_8_peaks20120803113152247" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="29" open="false" checked="Qt::Unchecked" name="5_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="5_9_peaks20120803113155240" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="window3">
+            <legendlayer drawingOrder="39" open="false" checked="Qt::Unchecked" name="3_10_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_10_peaks20120803112940462" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="38" open="false" checked="Qt::Unchecked" name="3_1_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_1_peaks20120803112944004" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="37" open="false" checked="Qt::Unchecked" name="3_2_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_2_peaks20120803112946854" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="36" open="false" checked="Qt::Unchecked" name="3_3_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_3_peaks20120803112949855" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="30" open="false" checked="Qt::Unchecked" name="3_4_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_4_peaks20120803113032562" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="31" open="false" checked="Qt::Unchecked" name="3_5_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_5_peaks20120803113034684" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="32" open="false" checked="Qt::Unchecked" name="3_6_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_6_peaks20120803113036743" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="33" open="false" checked="Qt::Unchecked" name="3_7_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_7_peaks20120803113038778" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="34" open="false" checked="Qt::Unchecked" name="3_8_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_8_peaks20120803113041177" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="35" open="false" checked="Qt::Unchecked" name="3_9_peaks" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="3_9_peaks20120803113043331" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="gipfel" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="gipfel20120803113458247" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="60" open="false" checked="Qt::Checked" name="dgm_colored_relief" showFeatureCount="0">
             <filegroup open="false" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="dgm_colored_relief20120802101028166" visible="1"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="1">
+    <projectlayers layercount="62">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_10_peaks20120803112825907</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>19_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_1_peaks20120803112830472</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_2_peaks20120803112833305</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_3_peaks20120803112836042</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_4_peaks20120803112839083</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_5_peaks20120803112841397</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_6_peaks20120803112843863</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>19_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_7_peaks20120803112846104</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>19_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_8_peaks20120803112848314</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>19_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>19_9_peaks20120803112850541</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/19_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>19_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_10_peaks20120803112903050</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_1_peaks20120803112906551</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_2_peaks20120803112909230</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_3_peaks20120803112911791</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_4_peaks20120803112914426</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_5_peaks20120803112916971</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_6_peaks20120803112919965</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_7_peaks20120803112922467</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_8_peaks20120803112924814</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>39_9_peaks20120803112927504</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/39_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>39_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_10_peaks20120803112940462</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_1_peaks20120803112944004</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_2_peaks20120803112946854</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_3_peaks20120803112949855</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_4_peaks20120803113032562</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_5_peaks20120803113034684</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_6_peaks20120803113036743</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_7_peaks20120803113038778</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_8_peaks20120803113041177</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>3_9_peaks20120803113043331</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/3_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>3_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_10_peaks20120803113108763</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_1_peaks20120803113111187</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_2_peaks20120803113118295</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_3_peaks20120803113120427</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_4_peaks20120803113122755</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_5_peaks20120803113124678</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_6_peaks20120803113126424</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_7_peaks20120803113128106</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_8_peaks20120803113152247</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>5_9_peaks20120803113155240</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/5_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>5_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_10_peaks20120803113200102</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_1_peaks20120803113228419</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_2_peaks20120803113231043</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_3_peaks20120803113233405</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_4_peaks20120803113235368</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_5_peaks20120803113237385</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_6_peaks20120803113239788</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_7_peaks20120803113241703</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_8_peaks20120803113243688</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>69_9_peaks20120803113245716</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/69_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:57</timestamp>
+            <layername>69_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_10_peaks20120803113249528</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_10_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_10_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_1_peaks20120803113309090</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_1_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_1_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_2_peaks20120803113311475</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_2_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_2_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_3_peaks20120803113313413</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_3_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_3_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_4_peaks20120803113315176</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_4_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_4_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_5_peaks20120803113316906</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_5_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_5_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_6_peaks20120803113318707</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_6_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_6_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_7_peaks20120803113320567</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_7_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_7_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_8_peaks20120803113322393</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_8_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_8_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>9_9_peaks20120803113324628</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/cellhd/9_9_peaks</datasource>
+            <title></title>
+            <abstract></abstract>
+            <timestamp>2012-08-02T13:48:56</timestamp>
+            <layername>9_9_peaks</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>grassraster</provider>
+            <rasterproperties>
+                <mDrawingStyle>SingleBandGray</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName></mRedBandName>
+                <mGreenBandName></mGreenBandName>
+                <mBlueBandName></mBlueBandName>
+                <mGrayBandName>Band 1</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>StretchToMinimumMaximum</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>6</min>
+                        <max>6</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-2000000000.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-2000000000.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-2000000000.000000" blue="-2000000000.000000" green="-2000000000.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>dgm_colored_relief20120802101028166</id>
-            <datasource>./dgm_colored_relief.tif</datasource>
+            <datasource>./colored_relief.tif</datasource>
             <title></title>
             <abstract></abstract>
             <layername>dgm_colored_relief</layername>
@@ -86,8 +3463,88 @@
                 </singleValuePixelList>
                 <threeValuePixelList>
                     <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
                 </threeValuePixelList>
             </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>gipfel20120803113458247</id>
+            <datasource>../../../../grass_data/EPSG25832_UTM32N/peak_param/gipfel/1_point</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>gipfel</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1009</srsid>
+                    <srid>3044</srid>
+                    <authid>EPSG:3044</authid>
+                    <description>ETRS89 / ETRS-TM32</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">grass</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="164,164,164,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="triangle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="1.5"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>int_1</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Sans Serif"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="int_1"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
         </maplayer>
     </projectlayers>
     <properties>
