@@ -347,6 +347,41 @@
             </filegroup>
         </legendlayer>
     </legend>
+    <Composer title="Composer 1" visible="0">
+        <ComposerLabel valign="32" labelText="Koordinatensystem: EPSG:3044 (UTM32N ETRS89)" halign="1" margin="1">
+            <LabelFont description="Sans Serif,10,-1,0,50,0,0,0,0,0"/>
+            <FontColor red="0" blue="0" green="0"/>
+            <ComposerItem width="87.8016" x="117.198" y="287.334" rotation="0" height="7.66559" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerLabel>
+        <ComposerScaleBar segmentMillimeters="29.0877" numMapUnitsPerScaleBarUnit="2" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+            <BrushColor red="0" blue="0" green="0"/>
+            <ComposerItem width="73.6755" x="5" y="281.2" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="3" lastValidViewScaleFactor="2.03691" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerScaleBar>
+        <ComposerPicture pictureWidth="17.2356" file="/usr/share/qgis/svg/north_arrows/north-arrow_3_simple_symmetric_triangular.svg" pictureHeight="15.2718" mapId="-1">
+            <ComposerItem width="17.2356" x="90.3822" y="280.818" rotation="0" height="15.2718" frame="false" outlineWidth="0.3" zValue="4" lastValidViewScaleFactor="1" id="" positionLock="false">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerPicture>
+        <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+            <Extent ymin="5.09716e+06" xmin="346433" ymax="5.1945e+06" xmax="422693"/>
+            <LayerSet/>
+            <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+                <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+            </Grid>
+            <ComposerItem width="221.823" x="-5.9115" y="-2.396" rotation="0" height="283.148" frame="false" outlineWidth="0.3" zValue="1" lastValidViewScaleFactor="2.08725" id="" positionLock="true">
+                <FrameColor alpha="255" red="0" blue="0" green="0"/>
+                <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+            </ComposerItem>
+        </ComposerMap>
+        <Composition printResolution="150" paperWidth="210" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="297" printAsRaster="0"/>
+    </Composer>
     <projectlayers layercount="62">
         <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
             <id>19_10_peaks20120803112825907</id>
@@ -3497,7 +3532,7 @@
                             <prop k="color_border" v="0,0,0,255"/>
                             <prop k="name" v="triangle"/>
                             <prop k="offset" v="0,0"/>
-                            <prop k="size" v="1.5"/>
+                            <prop k="size" v="3.5"/>
                         </layer>
                     </symbol>
                 </symbols>
