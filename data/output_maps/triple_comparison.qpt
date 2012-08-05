@@ -1,0 +1,70 @@
+<Composer title="Composer 6" visible="1">
+ <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" titleFont="Sans Serif,16,-1,0,50,0,0,0,0,0" map="0" groupFont="Sans Serif,14,-1,0,50,0,0,0,0,0" layerFont="Sans Serif,12,-1,0,50,0,0,0,0,0" groupSpace="2" symbolSpace="2" symbolHeight="4" layerSpace="2" iconLabelSpace="2" wrapChar="" itemFont="Sans Serif,12,-1,0,50,0,0,0,0,0">
+  <Model autoUpdate="0">
+   <LayerItem layerId="69_1020120803142033529" text="">
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#b4b4b4" text="Planar"/>
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#000000" text="Pit"/>
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#0000ff" text="Channel"/>
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#00ff00" text="Pass (saddle)"/>
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#ffff00" text="Ridge"/>
+    <RasterClassificationItem layerId="69_1020120803142033529" color="#ff0000" text="Peak"/>
+   </LayerItem>
+  </Model>
+  <ComposerItem width="38" x="258.623" y="0.347611" rotation="0" height="55.6" frame="false" outlineWidth="0.3" zValue="2" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerLegend>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet>
+   <Layer>69_520120803142040219</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="101.077" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerMap keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet>
+   <Layer>69_1020120803142033529</Layer>
+   <Layer>69_520120803142040219</Layer>
+  </LayerSet>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="201.453" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerMap keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+  <Extent ymin="5.10714e+06" xmin="357684" ymax="5.19749e+06" xmax="398556"/>
+  <LayerSet/>
+  <Grid gridStyle="0" crossLength="3" penColorRed="0" penColorBlue="0" intervalX="0" offsetX="0" intervalY="0" offsetY="0" show="0" penWidth="0" penColorGreen="0">
+   <Annotation direction="0" precision="3" position="1" frameDistance="1" show="0" font="Sans Serif,9,-1,0,50,0,0,0,0,0"/>
+  </Grid>
+  <ComposerItem width="95" x="0" y="0" rotation="0" height="209.994" frame="true" outlineWidth="0.5" zValue="1" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="156" blue="156" green="156"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerMap>
+ <ComposerScaleBar segmentMillimeters="23.2433" numMapUnitsPerScaleBarUnit="1" numSegments="2" height="5" alignment="0" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="0" style="Single Box" unitLabel="m" font="Sans Serif,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="10000">
+  <BrushColor red="0" blue="0" green="0"/>
+  <ComposerItem width="61.9866" x="234.942" y="196.053" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="6" lastValidViewScaleFactor="2.87678" id="" positionLock="true">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerScaleBar>
+ <ComposerPicture pictureWidth="11.5568" file="/usr/share/qgis/svg/north_arrows/NorthArrow2.svg" pictureHeight="13.8" mapId="-1">
+  <ComposerItem width="11.5568" x="223.781" y="195.881" rotation="0" height="13.8" frame="false" outlineWidth="0.3" zValue="7" lastValidViewScaleFactor="2.87678" id="" positionLock="false">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  </ComposerItem>
+ </ComposerPicture>
+ <Composition printResolution="150" paperWidth="297" snapGridOffsetX="0" snapGridResolution="0" snapGridOffsetY="0" snapping="0" paperHeight="210" printAsRaster="0"/>
+</Composer>
