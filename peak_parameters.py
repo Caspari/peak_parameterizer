@@ -375,23 +375,33 @@ class Exporter(object):
         '''
         Summarizes ResultContainer error values to error index.
         
-        The error index calculated here is the 'sensitivity', i.e. the
-        proportion of correctly identified peaks (true positive) to all
-        existing peaks (true positive + false negative)
+        The error index calculated here consists of two parts
+        1. the 'sensitivity', i.e. the proportion of correctly identified peaks 
+        (true positive) to all existing peaks (true positive + false negative)
         (see http://en.wikipedia.org/wiki/Binary_classification).
-        
-        A different index form can be implemented in the future.
+        2. The second part accounts for falsely classified peaks. Here, the 
+        percentage of falsely classified peaks to all existing peaks is
+        subtracted from the sensitivity. Thus the result can become negative.
         
         Arguments:
             tp: true positive count
             fp: false positive count
             fn: false negative count
         Returns:
-            sensitivity value
+            error index
         '''
+        if (tp + fn == 0): 
+            sensitivity = tp / 1
+        else: 
+            sensitivity = tp / (tp + fn)
         
-        sensitivity = tp / (tp + fn) - fp / (tp + fn)
-        return sensitivity
+        if (tp + fn == 0):
+            falsepeaks_ratio =  fp / (1)
+        else:
+            falsepeaks_ratio =  fp / (tp + fn)
+        
+        result = sensitivity - falsepeaks_ratio
+        return result
     
     def exportToCsv(self, errTag, export_path):
         ''' 
