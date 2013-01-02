@@ -392,12 +392,9 @@ class Exporter(object):
         '''
         if (tp + fn == 0): 
             sensitivity = tp / 1
+            falsepeaks_ratio =  fp / (1)  
         else: 
             sensitivity = tp / (tp + fn)
-        
-        if (tp + fn == 0):
-            falsepeaks_ratio =  fp / (1)
-        else:
             falsepeaks_ratio =  fp / (tp + fn)
         
         result = sensitivity - falsepeaks_ratio
