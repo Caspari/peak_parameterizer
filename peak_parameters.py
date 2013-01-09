@@ -77,38 +77,37 @@ import csv
 
 import grass.script as grass
 
+def parse_error_values(self, flags):
+    '''
+    Parses flag dictionary from GRASS parser into text descriptions
+    @return error_values: A list of error values 
+    '''
+    # Append error flags to error values list
+    self.error_values = []
+    for error_flag in flags.keys():
+        if flags[error_flag]:
+            self.error_values.append(error_flag) # Replace error values from flags with readable strings
+    
+    if 't' in self.error_values:
+        self.error_values.remove('t')
+        self.error_values.append('true positives')
+    if 'f' in self.error_values:
+        self.error_values.remove('f')
+        self.error_values.append('false positives')
+    if 'n' in self.error_values:
+        self.error_values.remove('n')
+        self.error_values.append('false negatives')
+    if 's' in self.error_values:
+        self.error_values.remove('s')
+        self.error_values.append('summarize')
+    return error_values
+
 class PeakAnalyst(object):
     '''
     A geographical object that finds peaks according to specified parameters
     and compares them with a validation data set.
     '''
     
-
-    def parse_error_values(self, flags):
-        '''
-        Parses flag dictionary from GRASS parser into text descriptions
-        @return error_values: A list of error values 
-        '''
-        # Append error flags to error values list
-        self.error_values = []
-        for error_flag in flags.keys():
-            if flags[error_flag]:
-                self.error_values.append(error_flag) # Replace error values from flags with readable strings
-        
-        if 't' in self.error_values:
-            self.error_values.remove('t')
-            self.error_values.append('true positives')
-        if 'f' in self.error_values:
-            self.error_values.remove('f')
-            self.error_values.append('false positives')
-        if 'n' in self.error_values:
-            self.error_values.remove('n')
-            self.error_values.append('false negatives')
-        if 's' in self.error_values:
-            self.error_values.remove('s')
-            self.error_values.append('summarize')
-        return error_values
-
     def __init__(self, 
                  options,
                  flags):
