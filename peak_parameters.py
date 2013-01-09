@@ -37,6 +37,11 @@
 #% description: Summarize error values
 #% guisection: Validation measurements
 #%End
+#%Flag
+#% key: l
+#% description: Leave morphometric maps in mapset
+#% guisection: Optional
+#%End
 
 #%Option
 #% key: dem
@@ -151,12 +156,22 @@ class PeakAnalyst(object):
                                         self.slope_thresholds,
                                         self.error_values)
     
+
     def find_peaks(self):
         '''
         Performs morphometric analyses for all specified window sizes and slope
         thresholds, then extracts all areas classified as peaks and converts
         them into vector areas.
         '''
+        
+        def cleanup(self, feature_map, grass, peak_raster):
+            '''
+            Deletes produced maps if the user has chosen to do so.
+            '''
+            if not flags['l']:
+            # Delete the geomorphometry map and raster peak map.
+                for raster in [peak_raster, feature_map]:
+                    grass.run_command('g.remove', rast=raster)
         
         # Make reclass table that eliminates all features except for peaks
         reclass_rules = '.tmp_reclass.txt'
@@ -190,10 +205,9 @@ class PeakAnalyst(object):
                 # Add the window, slope threshold and vector peak map to list 
                 # of found peaks
                 self.found_peaks.append([window, slope_threshold, peak_vectors])
-                # Delete the geomorphometry map and raster peak map.
-                for raster in [peak_raster, feature_map]:
-                    grass.run_command('g.remove',
-                                      rast=raster)
+                
+                cleanup()
+                self.cleanup(feature_map, grass, peak_raster)
         # Delete reclass table
         os.remove(reclass_rules)
     
