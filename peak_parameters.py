@@ -83,6 +83,32 @@ class PeakAnalyst(object):
     and compares them with a validation data set.
     '''
     
+
+    def parse_error_values(self, flags):
+        '''
+        Parses flag dictionary from GRASS parser into text descriptions
+        @return error_values: A list of error values 
+        '''
+        # Append error flags to error values list
+        self.error_values = []
+        for error_flag in flags.keys():
+            if flags[error_flag]:
+                self.error_values.append(error_flag) # Replace error values from flags with readable strings
+        
+        if 't' in self.error_values:
+            self.error_values.remove('t')
+            self.error_values.append('true positives')
+        if 'f' in self.error_values:
+            self.error_values.remove('f')
+            self.error_values.append('false positives')
+        if 'n' in self.error_values:
+            self.error_values.remove('n')
+            self.error_values.append('false negatives')
+        if 's' in self.error_values:
+            self.error_values.remove('s')
+            self.error_values.append('summarize')
+        return error_values
+
     def __init__(self, 
                  options,
                  flags):
@@ -98,6 +124,7 @@ class PeakAnalyst(object):
                    t - true positives
                    f - false negatives
                    n - false negatives
+                   s - summarize
             dem: string (name of GRASS elevation model to be analyzed. Must be
                          in same mapset)
             peaks: string (name of GRASS vector points showing peaks. Later,
@@ -115,21 +142,7 @@ class PeakAnalyst(object):
         self.slope_thresholds = options['slope_thresholds'].split(',')
         for i in range(len(self.slope_thresholds)):
             self.slope_thresholds[i] = int(self.slope_thresholds[i])
-        # Append error flags to error values list
-        self.error_values = []
-        for error_flag in flags.keys():
-            if flags[error_flag]:
-                self.error_values.append(error_flag)
-        # Replace error values from flags with readable strings
-        if 't' in self.error_values:
-            self.error_values.remove('t')
-            self.error_values.append('true positives')
-        if 'f' in self.error_values:
-            self.error_values.remove('f')
-            self.error_values.append('false positives')
-        if 'n' in self.error_values:
-            self.error_values.remove('n')
-            self.error_values.append('false negatives')
+        error_values = parse_error_values(flags)
         self.dem = options['dem']
         self.peaks = options['peaks']
         # Set region to raster
@@ -346,25 +359,7 @@ class Exporter(object):
         self.export_directory = options['export_directory']
         if not self.export_directory[-1] == '/':
             self.export_directory += '/'
-        # Append error flags to error values list
-        self.error_values = []
-        for error_flag in flags.keys():
-            if flags[error_flag]:
-                self.error_values.append(error_flag)
-        # Replace error values from flags with readable strings
-        if 't' in self.error_values:
-            self.error_values.remove('t')
-            self.error_values.append('true positives')
-        if 'f' in self.error_values:
-            self.error_values.remove('f')
-            self.error_values.append('false positives')
-        if 'n' in self.error_values:
-            self.error_values.remove('n')
-            self.error_values.append('false negatives')
-        if 's' in self.error_values:
-            self.error_values.remove('s')
-            self.error_values.append('summarize')
-        # Call export methods.
+        error_values = parse_error_values(flags)
         for error_flag in self.error_values:
             export_path = (self.export_directory + error_flag + 
                            '.csv').replace(' ', '_')
@@ -414,7 +409,7 @@ class Exporter(object):
             export_path: path where file shall be created, plus FILENAME.csv
         '''
         
-        # Get indices of error values in ResultContainer 
+        # Get indices of error values in ResultContainer
         tp_index = self.container.error_values.index('true positives')
         fp_index = self.container.error_values.index('false positives')
         fn_index = self.container.error_values.index('false negatives') 
